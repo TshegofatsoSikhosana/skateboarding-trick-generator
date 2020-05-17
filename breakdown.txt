@@ -1,0 +1,49 @@
+9
+// Breaking down the tricks to components {flip, pop, board_rotation, body_rotation, stance, board_spin, flipCount,}
+
+*A trick set will be refered to as "T" and the number of elements in the set will be denoted as "t"(the actual tricks) and they are composed of 0<n<7 components. The number of trick components will be denoted as tc.
+*Let U be the set of all possible tricks and every Tn is a subset of U and each Tn set is unique. 
+ Uniqueness: Tn _ U but Tn != Tm where Tn & Tm are subsets of U.
+ 
+The wc refers to the number of words from the string that are needed to make the trick.(wc)
+
+*Given wc=1 ,T1 = {"ollie","kickflip","nollie","heelflip","hardflip", "impoosible"},t = 6, 
+We see that T1 has t=6 elements(tricks) and each trick has one component it is made up of except the "hardflip" because it is made up of a flip,board_rotation and a pop component..therefore it's tc = 3 while the other tricks' tc = 2 (including "ollie", tc=1). And impossible consists of board_rotation , pop(it's a shuv), board_spin , therefore its tc = 3
+
+*Given wc=2, T2 = { "inward heelflip","varial flip","varial heelflip", "360 flip","360 heelflip", [stance & flip] ,[board_rotation & body_rotation],[flip_count & flip], [stance & pop],[stance & "impossible"]  }.
+The set above has a lot of tricks in it including but not limited to all the tricks with components of stance and flip. Like T1 it has elements that are derived from a set of tricks with components flip and pop, which are our remaining varials.
+
+	Finding t is where the fun begins:
+	*t = 6 in T1 is easy to calcutate because the tricks in T1 had wc =1 and all the tricks with one word are intuitive.
+	*t = ? in T2 and is much larger than T1 because it has 4 defined tricks and many sets of tricks within the set T2 itself. The sets are in square brackets and we can get the number of tricks in each subset of T2 
+		and sum up the total unique tricks we have in the set to give us t.
+
+		t = 5 + t_setSum
+		(Referencing T2 sets)
+		1st set :[stance & flip] , a flip has 2 possible states and a stance has 3. Therefore t = 6 , t = 2*3
+		2nd set: [board_rotation +  body_rotation] , board_rotation has 2 possible states and body_rotatin has 2. Therefore t= 4 = 2*2
+		3rd set: [flip_count & flip] ,flip_count has 3 possible states and flip has 2 possible states. Therefore t = 6 = 3*2
+		4th set: [stance & pop] ,stance has 3 possible states and pop has 1 possible state. Therefore t= 3 = 3*1
+		5th set: [stance & "impossible"=>[board_rotation & board_spin & pop]], stance has 3 possible states and trick ,"impossible" is one state but remember it consists of many tc. Therefore t = 3 ,3*1
+		
+		t_setSum = 6 + 4+6+3+3 = 22
+		=> t = 27 for T2.
+	
+*Given wc >= 3 ,Shxt just gets weird :o
+t = ? in T3 ...its getting more heated:
+	-T3 is compromised by many sets, of which it first includes the pop shuv-its because they have components 
+	[board_rotation +pop] for example "fs pop shuv-it"
+	-T3 has other sets including those of body rotations
+	[board_rotation + body_rotation + pop]
+	or for other stances structure is [stance +board_rotation + body_rotation]
+	-T3 also has the set of flips with body_rotation
+	[board_rotation + body_rotation + flip] e.g bs 180 kickflip
+	or number of flips in a stance
+	e.g fakie double flip [stance + flip_count + flip]
+	-T3 also has the set for big spins in a person's normal stance
+	[board_rotation + board_spin + body_rotation + pop]
+	-T3 also has stance tre flips so [stance + board_spin + flip]
+	
+	
+
+

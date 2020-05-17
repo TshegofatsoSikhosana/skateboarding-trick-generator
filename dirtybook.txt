@@ -1,0 +1,250 @@
+nollie bs 180 heelflip		7.0
+nollie bs 360		8.0
+nollie kickflip		4.0
+nollie heelflip		4.0
+ollie		1.0
+switch fs pop shuv-it		5.0
+fs pop shuv-it		2.0
+bs 360 kickflip		8.0
+bs 180 kickflip		5.0
+fakie bs 180		4.0
+nollie bs bigger kickflip		14.0
+fakie inward heelflip		9.0
+nollie fs 180 heelflip		7.0
+fakie bs bigger heelflip		13.0
+switch bs 180 heelflip		8.0
+switch fs 180 heelflip		8.0
+fakie bs 360		7.0
+switch kickflip		5.0
+fs bigger heelflip		12.0
+varial heelflip		5.0
+switch fs 180 kickflip		8.0
+switch heelflip		5.0
+fakie heelflip		3.0
+kickflip		2.0
+switch bs big heelflip		13.0
+nollie fs bigger spin		12.0
+nollie fs 360 pop shuv-it		13.0
+switch fs bigger kickflip		15.0
+switch bs 180		6.0
+fakie ollie		2.0
+bs 180 ollie		4.0
+fs 360 heelflip		8.0
+nollie 540 inward heelflip		16.0
+fs 360 kickflip		8.0
+360 heelflip		6.0
+fakie bs 180 heelflip		6.0
+fakie fs bigger kickflip		13.0
+switch bs bigger heelflip		15.0
+360 quad heelflip		14.0
+hardflip		5.0
+fakie fs pop shuv-it		3.0
+nollie fs 360		8.0
+nollie bs big kickflip		12.0
+nollie bs big spin		10.0
+nollie bs 180		5.0
+fakie varial kickflip		6.0
+fakie 540 kickflip		9.0
+switch bs 360		9.0
+fakie bs bigger kickflip		13.0
+nollie		2.0
+fakie bs 360 quad kickflip		17.0
+switch fs 180		6.0
+fakie kickflip		3.0
+nollie bs bigger heelflip		14.0
+nollie varial kickflip		7.0
+inward heelflip		8.0
+switch triple heelflip		10.0
+fakie bs 180 kickflip		6.0
+switch bs 180 kickflip		8.0
+switch ollie		4.0
+switch fs 360		9.0
+fakie fs 180 kickflip		6.0
+bs 540 pop shuv-it		8.0
+bs pop shuv-it		2.0
+fakie bs 360 pop shuv-it		12.0
+fakie fs 180 heelflip		6.0
+fakie triple kickflip		8.0
+bs 360 heelflip		8.0
+fakie bs big spin		9.0
+heelflip		2.0
+nollie hardflip		7.0
+nollie bs big heelflip		12.0
+switch fs bigger heelflip		15.0
+switch inward heelflip		11.0
+nollie inward heelflip		10.0
+switch hardflip		8.0
+impossible		0.0
+switch bs pop shuv-it		5.0
+fakie bs 540 pop shuv-it		9.0
+nollie fs 180		5.0
+nollie fs 540 pop shuv-it		10.0
+bs big spin		8.0
+nollie fs bigger heelflip		14.0
+switch bs 540 pop shuv-it		11.0
+fakie quad heelflip		11.0
+switch fs big heelflip		13.0
+nollie bs 180 kickflip		7.0
+nollie fs pop shuv-it		4.0
+nollie bs 180 quad kickflip		15.0
+switch 360 kickflip		9.0
+fs 360 ollie		11.0
+nollie varial heelflip		7.0
+nollie 360 triple heelflip		13.0
+nollie fs 180 kickflip		7.0
+nollie triple heelflip		9.0
+bs 360 ollie		11.0
+nollie 360 hardflip		11.0
+bs 180 heelflip		5.0
+nollie fs bigger kickflip		14.0
+switch quad kickflip		13.0
+switch fs bigger spin		13.0
+fs bigger kickflip		12.0
+fakie fs 180		4.0
+varial kickflip		5.0
+fakie 540 hardflip		12.0
+switch varial heelflip		8.0
+nollie bs pop shuv-it		4.0
+bs big heelflip		10.0
+fakie hardflip		6.0
+fs big kickflip		10.0
+bs bigger spin		10.0
+fs 180 ollie		4.0
+fakie fs big kickflip		11.0
+nollie bs bigger spin		12.0
+540 inward heelflip		14.0
+switch bs big kickflip		13.0
+fakie fs big heelflip		11.0
+fs big heelflip		10.0
+switch bs bigger kickflip		15.0
+fakie fs 360		7.0
+switch varial kickflip		8.0
+fakie 360 hardflip		10.0
+nollie quad kickflip		12.0
+fakie 360 inward heelflip		13.0
+fs 180 kickflip		5.0
+nollie 540 heelflip		10.0
+nollie 540 hardflip		13.0
+nollie 360 kickflip		8.0
+fakie bs big kickflip		11.0
+fakie double kickflip		6.0
+nollie bs 180 quad heelflip		15.0
+nollie 540 kickflip		10.0
+fs big spin		8.0
+switch 540 heelflip		11.0
+bs bigger kickflip		12.0
+fakie bs pop shuv-it		3.0
+switch 360 hardflip		12.0
+switch triple kickflip		10.0
+nollie impossible		2.0
+bs bigger heelflip		12.0
+540 kickflip		8.0
+fakie fs bigger spin		11.0
+nollie 360 inward heelflip		14.0
+switch bs 360 pop shuv-it		14.0
+switch varial triple heelflip		13.0
+fs 180 heelflip		5.0
+fakie impossible		1.0
+switch quad heelflip		13.0
+switch fs 180 triple kickflip		13.0
+nollie fs big kickflip		12.0
+nollie bs 360 pop shuv-it		13.0
+fakie fs big spin		9.0
+switch double heelflip		8.0
+fakie 360 kickflip		7.0
+switch bs big spin		11.0
+bs 360 pop shuv-it		11.0
+fakie varial heelflip		6.0
+fs bigger spin		10.0
+fakie 360 heelflip		7.0
+switch bs bigger spin		13.0
+fakie bs bigger spin		11.0
+switch 360 heelflip		9.0
+fakie fs bigger heelflip		13.0
+switch 360 inward heelflip		15.0
+bs big kickflip		10.0
+switch 540 inward heelflip		17.0
+360 hardflip		9.0
+fakie 540 heelflip		9.0
+switch fs 540 pop shuv-it		11.0
+nollie bs 540 pop shuv-it		10.0
+bs 180 double kickflip		8.0
+nollie fs big spin		10.0
+fakie triple heelflip		8.0
+switch fs big kickflip		13.0
+nollie fs 180 quad kickflip		15.0
+fakie bs big heelflip		11.0
+nollie quad heelflip		12.0
+switch bs 180 double kickflip		11.0
+fakie 540 inward heelflip		15.0
+fakie bs 180 double heelflip		9.0
+nollie fs big heelflip		12.0
+fakie bs 180 quad heelflip		14.0
+fakie bs 180 double kickflip		9.0
+varial quad kickflip		13.0
+fs 360 pop shuv-it		11.0
+switch bs 180 double heelflip		11.0
+switch fs big spin		11.0
+nollie 360 heelflip		8.0
+bs 360 triple kickflip		13.0
+switch 540 kickflip		11.0
+360 kickflip		6.0
+bs 360 quad heelflip		16.0
+varial double kickflip		8.0
+360 inward heelflip		12.0
+fakie fs 360 pop shuv-it		12.0
+switch 540 hardflip		14.0
+nollie fs 360 quad heelflip		18.0
+nollie double kickflip		7.0
+varial quad heelflip		13.0
+bs 180 quad kickflip		13.0
+nollie double heelflip		7.0
+switch double kickflip		8.0
+switch fs 360 pop shuv-it		14.0
+switch bs 360 double kickflip		14.0
+fs 540 pop shuv-it		8.0
+switch varial double kickflip		11.0
+540 double kickflip		11.0
+540 hardflip		11.0
+fs 180 double kickflip		8.0
+nollie varial quad kickflip		15.0
+540 heelflip		8.0
+switch inward quad heelflip		19.0
+fakie double heelflip		6.0
+nollie fs 180 quad heelflip		15.0
+nollie 360 triple kickflip		13.0
+fakie varial triple kickflip		11.0
+fs 360 quad heelflip		16.0
+nollie fs 180 double kickflip		10.0
+switch 540 quad kickflip		19.0
+nollie bs 180 double kickflip		10.0
+switch impossible		3.0
+fs 180 quad heelflip		13.0
+nollie bs 180 triple kickflip		12.0
+bs 360 quad kickflip		16.0
+nollie inward double heelflip		13.0
+nollie 540 triple heelflip		15.0
+quad heelflip		10.0
+switch fs 180 double kickflip		11.0
+switch fs 180 quad heelflip		16.0
+nollie triple kickflip		9.0
+fakie fs 180 quad heelflip		14.0
+double heelflip		5.0
+fakie bs 360 double heelflip		12.0
+fakie bs 180 quad kickflip		14.0
+fakie quad kickflip		11.0
+fakie fs 540 pop shuv-it		9.0
+bs 180 double heelflip		8.0
+nollie fs 360 double kickflip		13.0
+quad kickflip		10.0
+nollie inward quad heelflip		18.0
+fakie inward quad heelflip		17.0
+double kickflip		5.0
+fakie 540 triple heelflip		14.0
+fs 360 quad kickflip		16.0
+fs 180 double heelflip		8.0
+fakie varial quad kickflip		14.0
+switch bs 180 quad kickflip		16.0
+switch bs 360 triple kickflip		16.0
+switch fs 360 quad heelflip		19.0
+switch 360 double heelflip		12.0
