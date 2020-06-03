@@ -3,7 +3,7 @@
 Check it out at: https://play.google.com/store/apps/details?id=com.skatehq.stsplanet.skatedyce
 
 This is a skateboard trick generator written in Java.
-The aim for this project is to create a skate bot that will be able to generate all with skateboarding tricks including flat-ground, vert , grinds and slides, and finally "special" tricks. The bot should also be able to validate that a trick follows the correct skateboarding trick naming convention (is in the langauge of skateboarding).
+The aim for this project is to create a skate bot that will is able to generate all skateboarding tricks including flat-ground, vert , grinds and slides, and finally "special" tricks. The bot should also be able to validate that a trick follows the correct skateboarding trick naming convention (is in the langauge of skateboarding).
 
 The current release:
 
