@@ -3,7 +3,10 @@ import java.util.*;
 
 public class Trick
 {
-	Random generator = new Random();
+	private Random generator = new Random();
+	private TrickComponents component = new TrickComponents();
+	private Level level = new Level();
+	//enum ObstacteType = {'CURB','LEDGE','RAIL'};
 	
 	String TrickSelection()										//generates the trick-name 
 	{
@@ -15,31 +18,204 @@ public class Trick
 		String str_board_rotation = "";
 		String str_body_rotation = "";
 		String str_board_spin = "";
-		String special = "";
-		String trick = "";		
-		TrickComponents component = new TrickComponents();
+		String str_manual = "";
+		boolean special = false;
+		String trick = "";
 		
-		str_stance = component.Stance(str_stance);
+		
+		
+		str_stance = component.Stance();
 //	System.out.println("stance= " + str_stance);
-		str_flip = component.Flip(str_flip);
+		str_flip = component.Flip();
 	//	System.out.println("flip= " + str_flip);
-		str_flip_count = component.FlipCount(str_flip_count);
-		str_board_rotation = component.Board_R(str_board_rotation);
+		str_flip_count = component.FlipCount();
+		str_board_rotation = component.Board_R();
 	//	System.out.println("board= " + str_board_rotation);
-		str_body_rotation = component.Body_R(str_body_rotation);
+		str_body_rotation = component.Body_R();
 	//	System.out.println("body= " + str_body_rotation);
-		str_pop = component.Pop(str_pop);
+		str_pop = component.Pop();
 	//	System.out.println("pop= " + str_pop);
-		str_board_spin = component.Board_Spin(str_board_spin);
+		str_board_spin = component.Board_Spin();
 	//	System.out.println("board= " + str_board_spin);
-		trick = TheMagic(str_stance,str_pop,str_board_rotation,str_body_rotation,str_flip,str_flip_count,str_board_spin,special);
+		str_manual = component.Manual();
+	 
+		
+		trick = TheMagic(str_stance,str_pop,str_board_rotation,str_body_rotation,str_flip,str_flip_count,str_board_spin,special,str_manual);
+		
+		 
 
 		return trick;
 	}
+	
+	
+	
+	String Obstacle(String type)
+	{
+		
+		if(type == "FLAT")
+		{
+			//call theMagic function
+		}
+		else if(type == "STAIRS")
+		{
+			//call  theMAgic Function
+		}
+		else if(type == "LEDGE")
+		{
+			
+		}
+		else if(type == "RAIL")
+		{
+			
+		}
+		else if(type == "CURB")
+		{
+			//call Manuals;
+		}
+		
+		return "";
+	}
+	
+	String Manuals(String trick)
+	{
+		String str_combo = "";
+		String str_manual = "";
+		
+		
+		//Check if there is a trick set
+		if(trick.trim().equals(""))
+		{
+			//just manual
+			while(str_manual.trim().equals(""))
+			{
+				str_manual = component.Manual();
+			}
+			return str_manual;
+			
+			//need to add pivots
+		}
+		else
+		{
+			//Possible combinations are
+			//Trick to manual, Manual to Trick, 
+			int manual_action = generator.nextInt(3);
+			
+			if(manual_action == 0)		//into
+			{
+				//When a trick is done into manual
+				while(str_manual.trim().equals(""))
+				{
+					str_manual = component.Manual();
+				}
+				
+				str_combo = trick.trim() + " " + str_manual.trim();
+				
+				//before returning maybe a trick is done out from manual
+				manual_action = generator.nextInt(2);
+				if(manual_action == 0)
+				{
+					trick = "";
+					while(trick.equals(""))
+					{
+						trick = TrickSelection();
+					}
+					
+					//For the trick to make sense
+					if(level.TrickDifficulty(trick) < 6)
+					{
+						str_combo = str_combo + " " + trick;
+					}
+					
+					return str_combo;
+				}
+				
+				return str_combo;
+				
+			}
+			else if(manual_action == 1)	//out
+			{
+				//When a manual is done and a trick is done out of it
+				while(str_manual.trim().equals(""))
+				{
+					str_manual = component.Manual();
+				}
+				
+				
+				if(str_manual.trim().equals("nose manual"))	//mt str_manual.trim().equals("nose manual")
+				{
+					//Check if the stance exists
+					if(trick.split(" ")[0].trim().equals("nollie") || trick.split(" ")[0].trim().equals("fakie"))
+					{
+						//change the order of the trick
+						//because you can't have a nose manual nollie kickflip. Maybe nollie nose manual kickflip
+						
+						String combo =  trick.split(" ")[0]  + " " + str_manual;
+						
 
-	private String TheMagic(String str_stance, String str_pop, String str_board_rotation, String str_body_rotation,String str_flip,String str_flip_count,String str_board_spin, String special)
+						//System.out.println("Hey.... " + trick);
+						
+						for(int i = 1; i<trick.split(" ").length ;i++)
+						{
+							combo = combo +  trick.split(" ")[i] + " " ; 
+						}
+						str_combo = combo;
+					}
+				}
+				else if((str_manual.trim().equals("manual")))
+				{
+					
+					//Check if the stance exists and is not fakie/nollie
+					if(!trick.split(" ")[0].trim().equals("nollie") && !trick.split(" ")[0].trim().equals("fakie"))
+					{
+						//change the order of the trick
+						//because you can't have a nose manual switch kickflip. Maybe switch manual kickflip
+						if(trick.split(" ")[0].trim().equals("switch"))
+						{
+							//System.out.println("Hey,wassup... " + trick);
+							String combo =  trick.split(" ")[0]  + " " + str_manual;
+							
+							for(int i = 1; i<trick.split(" ").length ;i++)
+							{
+								combo = combo +  trick.split(" ")[i] + " " ; 
+							}
+							str_combo = combo;
+						}
+						else
+						{
+							str_combo = str_manual.trim()  + " " + trick.trim();	
+						}		
+					}
+				}
+				
+				return str_combo;
+			}
+			else
+			{
+				//just the trick
+				return str_combo;
+			}
+			
+		}
+	
+	}
+	
+	String Special()
+	{
+		
+		
+		return "";
+	}
+	
+	private String TheMagic(String str_stance, String str_pop, String str_board_rotation, String str_body_rotation,String str_flip,String str_flip_count,String str_board_spin, boolean special,String str_manual)
 	{
 		 String trick ="";
+		 
+		 //creative tricks, all the caspers and stuff
+		 if(special == true)
+		 {
+			 trick = Special();
+			 return trick;
+		 }
 		
 		if(str_pop.trim().equals("ollie") && str_stance.trim().equals(""))						//you can only ollie in one way otherwise it's a stance thing
 		{	
@@ -381,7 +557,18 @@ public class Trick
 							}
 						}
 					}
-					//make an else if for gazelle spins :)	
+					else if(str_body_rotation.trim().equals("360")) 
+					{
+						//gazelle spins :)
+						if(str_board_spin.trim().equals("360"))
+						{
+							str_board_spin = "gazelle ";
+							trick = str_stance + str_board_rotation + str_board_spin ;
+						}
+						
+						
+					}
+					
 				}
 			}	
 		}

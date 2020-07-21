@@ -12,6 +12,7 @@ public class main {
 	//Objectifying My classes 
 	static Search search = new Search();
 	static Trick trick = new Trick();
+	static String str_manaul;
 	static String str_trick = "";
 	static Level level = new Level();
 
@@ -21,7 +22,7 @@ public class main {
 		
 		System.out.println("\n Start: "+ CurrentTime.GetTime().toString()+ "\n \n");
 		
-		String[] list = new String[250];
+		String[] list = new String[360];
 		
 		for(int i = 0 ;i < list.length;i++)
 		{
@@ -56,21 +57,42 @@ public class main {
 			{
 				count++;
 				str_trick = trick.TrickSelection();//NB*
+				
+				//we can't have wild tricks
+				if(level.TrickDifficulty(str_trick) <= 9)
+				{
+					str_manaul = "";
+					while(str_manaul.trim().equals("")) 		//for manual tricks
+					{
+						str_manaul = trick.Manuals(str_trick);
+					}
+					
+					str_trick = str_manaul;
+				}
+				
+				
+				
 				if(end == 125)
 				{
 					if(!str_trick.trim().equals(""))
 					{
-						System.out.println("Half way done...i am still thinking but here is a trick you can track in the trickbook : " + str_trick);
+						System.out.println("Half way done...i am still thinking but here is a trick you can track in the trickbook : " + str_manaul);
 						//System.out.println(str_difficulty);					
 					}
 				}
 				else if(end == 126) 
 				{
-					System.out.println(" \n i am still thinking \n");
+					System.out.println(" \n i am still thinking: "+ str_manaul +"\n");
+				}
+				else if(end == 250) 
+				{
+					System.out.println(" \n previous threshold: "+ str_manaul +"\n");
 				}
 			}
 			
-			list[end] = str_trick;
+			
+			
+			list[end] = str_trick; 		
 			str_trick = "";
 			end = end + 1;
 		}
@@ -96,7 +118,7 @@ public class main {
 		//System.out.println(" \n \nDo a:\n "+ str_trick);	
 		
 		
-		//results is a list of averages for each trick and max
+		//results is a list of averages for each trick
 		double[] track = new double[250];
 		
 		for(int i = 0; i <= track.length-1; i++)
@@ -148,7 +170,7 @@ public class main {
 		{
 			if(level.isTrick(key.trim()))
 			{
-				//search.exists(key);
+				search.exists(key);
 				System.out.println("\n Hooray...It is a trick  and its score is " + level.TrickDifficulty(key.trim()) + " \n");
 			}
 			else
@@ -193,7 +215,7 @@ public class main {
 			}
 		}
 		
-		System.out.println("\n average trick difficulty: "+ sum/track.length + "\n");
+		System.out.println("\n average trick difficulty: "+ sum/track.length );
 		
 	}
 

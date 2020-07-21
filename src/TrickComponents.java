@@ -4,9 +4,37 @@ public class TrickComponents {
 	
 	Random generator = new Random();
 	
-	public String Stance(String str_stance)						//chooses the stance the trick will be done in
+	public String Manual()
 	{
+		String str_manual;
+		double manual = generator.nextInt(2);
 		
+		if(manual == 0)
+		{
+			str_manual = "manual";
+		}
+		else if(manual == 1)
+		{
+			str_manual = "nose manual";
+		}
+		else
+		{
+			str_manual = "";
+		}
+		
+		
+		//if the variable is not empty then add the space for next trick part
+		if(!str_manual.equals(""))
+		{
+			str_manual = str_manual  + " " ;
+		}
+		
+		return str_manual;
+	}
+	
+	public String Stance()						//chooses the stance the trick will be done in
+	{
+		String str_stance = "";
 		double stance = generator.nextInt(4);
 		
 		if(stance == 0)
@@ -53,8 +81,9 @@ public class TrickComponents {
 		return str_stance;
 	}
 
-	public String Pop(String str_pop)								//ollie or  pop-shuv
+	public String Pop()								//ollie or  pop-shuv
 	{
+		String str_pop;
 		double pop = generator.nextInt(72);
 		
 		if(pop%3 == 0)
@@ -76,8 +105,9 @@ public class TrickComponents {
 		return str_pop;
 	}
  	
-	public String Flip(String str_flip )							//generates the flip part of the trick
+	public String Flip()							//generates the flip part of the trick
 	{
+		String str_flip = "";
 		double flip = generator.nextInt(100);
 
 		if(flip%3 == 1)
@@ -98,8 +128,9 @@ public class TrickComponents {
 		return str_flip;
 	}
 	
-	public String FlipCount(String str_flip_count)
+	public String FlipCount()
 	{
+		String str_flip_count = "";
 		double flip_count = generator.nextInt(100);
 		
 		if(flip_count < 87)
@@ -141,8 +172,9 @@ public class TrickComponents {
 		return str_flip_count;
 	}
 	
-	public String Board_Spin(String str_board_spin) 
+	public String Board_Spin() 
 	{	
+		String str_board_spin= "";
 		double board_spin= generator.nextInt(72);
 		
 		//(str_boardspin != 180,because it's then called a pop-shuv :)
@@ -179,8 +211,9 @@ public class TrickComponents {
 		return str_board_spin;
 	}
 	//generates the board rotation part of the trick (based on the pop-shuv)
-	public String Board_R(String str_board_rotation) 				//generates the board rotation part of the trick
+	public String Board_R() 				//generates the board rotation part of the trick
 	{	
+		String str_board_rotation = "";
 		double board_rotation= generator.nextInt(72);
 		
 		
@@ -211,8 +244,9 @@ public class TrickComponents {
 		return str_board_rotation;
 	}
 	
-	public String Body_R(String str_body_rotation)					//generates the body rotation part of the trick
+	public String Body_R()					//generates the body rotation part of the trick
 	{
+		String str_body_rotation = "";
 		double body_rotation= generator.nextInt(3);
 		
 		if(body_rotation == 0)

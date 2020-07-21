@@ -1,250 +1,360 @@
-nollie bs 180 heelflip
-nollie bs 360
-nollie kickflip
-nollie heelflip
-ollie
-switch fs pop shuv-it
-fs pop shuv-it
-bs 360 kickflip
-bs 180 kickflip
-fakie bs 180
-nollie bs bigger kickflip
-fakie inward heelflip
-nollie fs 180 heelflip
-fakie bs bigger heelflip
-switch bs 180 heelflip
-switch fs 180 heelflip
-fakie bs 360
-switch kickflip
-fs bigger heelflip
-varial heelflip
-switch fs 180 kickflip
-switch heelflip
-fakie heelflip
-kickflip
-switch bs big heelflip
-nollie fs bigger spin
-nollie fs 360 pop shuv-it
-switch fs bigger kickflip
-switch bs 180
-fakie ollie
-bs 180 ollie
-fs 360 heelflip
-nollie 540 inward heelflip
-fs 360 kickflip
-360 heelflip
-fakie bs 180 heelflip
-fakie fs bigger kickflip
 switch bs bigger heelflip
-360 quad heelflip
-hardflip
-fakie fs pop shuv-it
-nollie fs 360
-nollie bs big kickflip
-nollie bs big spin
-nollie bs 180
-fakie varial kickflip
-fakie 540 kickflip
-switch bs 360
-fakie bs bigger kickflip
-nollie
-fakie bs 360 quad kickflip
-switch fs 180
-fakie kickflip
-nollie bs bigger heelflip
-nollie varial kickflip
-inward heelflip
-switch triple heelflip
-fakie bs 180 kickflip
-switch bs 180 kickflip
-switch ollie
-switch fs 360
-fakie fs 180 kickflip
-bs 540 pop shuv-it
-bs pop shuv-it
-fakie bs 360 pop shuv-it
-fakie fs 180 heelflip
-fakie triple kickflip
-bs 360 heelflip
-fakie bs big spin
-heelflip
-nollie hardflip
-nollie bs big heelflip
-switch fs bigger heelflip
-switch inward heelflip
-nollie inward heelflip
-switch hardflip
-impossible
-switch bs pop shuv-it
-fakie bs 540 pop shuv-it
-nollie fs 180
-nollie fs 540 pop shuv-it
-bs big spin
-nollie fs bigger heelflip
-switch bs 540 pop shuv-it
-fakie quad heelflip
-switch fs big heelflip
-nollie bs 180 kickflip
-nollie fs pop shuv-it
-nollie bs 180 quad kickflip
-switch 360 kickflip
+switch heelflip nose manual nollie heelflip
+nollie bs 180 nose manual
+nollie heelflip nose manual nollie
+manual
+nollie varial heelflip manual
 fs 360 ollie
-nollie varial heelflip
-nollie 360 triple heelflip
-nollie fs 180 kickflip
-nollie triple heelflip
-bs 360 ollie
-nollie 360 hardflip
-bs 180 heelflip
-nollie fs bigger kickflip
-switch quad kickflip
-switch fs bigger spin
-fs bigger kickflip
-fakie fs 180
-varial kickflip
-fakie 540 hardflip
-switch varial heelflip
-nollie bs pop shuv-it
-bs big heelflip
-fakie hardflip
-fs big kickflip
-bs bigger spin
-fs 180 ollie
-fakie fs big kickflip
-nollie bs bigger spin
-540 inward heelflip
-switch bs big kickflip
-fakie fs big heelflip
-fs big heelflip
-switch bs bigger kickflip
-fakie fs 360
-switch varial kickflip
-fakie 360 hardflip
-nollie quad kickflip
-fakie 360 inward heelflip
-fs 180 kickflip
-nollie 540 heelflip
-nollie 540 hardflip
-nollie 360 kickflip
-fakie bs big kickflip
-fakie double kickflip
-nollie bs 180 quad heelflip
-nollie 540 kickflip
-fs big spin
-switch 540 heelflip
-bs bigger kickflip
-fakie bs pop shuv-it
-switch 360 hardflip
-switch triple kickflip
-nollie impossible
-bs bigger heelflip
-540 kickflip
-fakie fs bigger spin
-nollie 360 inward heelflip
-switch bs 360 pop shuv-it
-switch varial triple heelflip
-fs 180 heelflip
-fakie impossible
-switch quad heelflip
-switch fs 180 triple kickflip
-nollie fs big kickflip
-nollie bs 360 pop shuv-it
-fakie fs big spin
-switch double heelflip
-fakie 360 kickflip
+nose manual
+fakie inward heelflip
+fakie kickflip manual
 switch bs big spin
-bs 360 pop shuv-it
-fakie varial heelflip
-fs bigger spin
-fakie 360 heelflip
-switch bs bigger spin
-fakie bs bigger spin
-switch 360 heelflip
-fakie fs bigger heelflip
-switch 360 inward heelflip
-bs big kickflip
-switch 540 inward heelflip
-360 hardflip
-fakie 540 heelflip
-switch fs 540 pop shuv-it
-nollie bs 540 pop shuv-it
-bs 180 double kickflip
+fakie nose manual bs 180 heelflip
+fakie bs 180
+switch bs 180 kickflip nose manual
+nollie 360 inward heelflip
+fs 180 heelflip nose manual
+fakie ollie
+fakie 540 heelflip nose manual
+switch heelflip
+fakie bs 360 pop shuv-it
+switch fs pop shuv-it
+nollie bs pop shuv-it nose manual
+switch kickflip
+fakie bs 180 heelflip manual
+switch kickflip nose manual
+fakie bs 180 nose manual
+fakie fs 180 heelflip
+switch manual heelflip
+manual bs 180 kickflip
+fakie fs 180 kickflip
 nollie fs big spin
-fakie triple heelflip
-switch fs big kickflip
-nollie fs 180 quad kickflip
-fakie bs big heelflip
-nollie quad heelflip
-switch bs 180 double kickflip
-fakie 540 inward heelflip
-fakie bs 180 double heelflip
-nollie fs big heelflip
-fakie bs 180 quad heelflip
-fakie bs 180 double kickflip
+fakie kickflip
+fs pop shuv-it
+kickflip
+switch bs 180 heelflip
+fakie nose manual bs 180
+manual heelflip
 varial quad kickflip
+bs bigger kickflip
+bs gazelle
+switch bs 180 heelflip nose manual
+bs 360 kickflip
+fakie bs 360
+fakie fs 360 manual nollie bs 180
+manual inward heelflip
+nollie fs big heelflip
+fakie heelflip
+nollie varial kickflip
+fakie 360 hardflip
+nollie inward heelflip
+switch bs 360
+nollie kickflip
+switch bs bigger kickflip
+nollie heelflip nose manual
+fakie bs 180 triple kickflip
+switch heelflip manual switch heelflip
+fakie fs big kickflip
+bs 360 ollie
+switch fs 180 heelflip
+bs 180 kickflip
+nollie 540 heelflip
+switch kickflip manual nollie kickflip
+fakie fs bigger heelflip
+switch fs 360
+fakie 360 kickflip
+switch manual double heelflip
+switch ollie
+switch impossible
+heelflip
+switch 360 heelflip
+nollie fs 360
+nollie fs 180 heelflip
+hardflip
+fakie varial heelflip
+fs gazelle nose manual
+bs pop shuv-it
 fs 360 pop shuv-it
-switch bs 180 double heelflip
+nollie manual
+fakie fs big spin
+manual bs pop shuv-it
+fakie inward heelflip nose manual
+nollie fs 180
+fakie fs 360
+manual hardflip
+switch fs bigger kickflip
+fakie nose manual kickflip
+switch bs big kickflip
+switch fs 360 pop shuv-it
+nollie heelflip
+switch varial heelflip
+fakie bs 180 kickflip
+fakie fs 180 nose manual
+fs 180 kickflip
+switch fs 180 kickflip nose manual
+nollie bs 180 nose manual fakie bs pop shuv-it
+switch bs 540 pop shuv-it
+nollie bs 360 manual
+switch bs 180
+switch heelflip nose manual
+switch hardflip
+nollie
+varial kickflip
+nollie 540 hardflip
+fakie bs 180 heelflip
+fakie fs 180
+nollie bs 360
+switch varial kickflip manual
+fakie varial heelflip manual fakie heelflip
+bs 180 heelflip
+fakie ollie manual
+nollie nose manual bs pop shuv-it
+switch fs 180
+fakie fs pop shuv-it manual
+nollie fs bigger spin
+kickflip nose manual
+fakie bs 180 heelflip nose manual nollie impossible
+switch manual bs 360
+switch fs bigger heelflip
+nollie impossible
+fakie bs gazelle
+fakie 540 inward heelflip
+fs big spin
+bs pop shuv-it nose manual
+fakie heelflip nose manual
+nollie nose manual bs gazelle
+switch bs pop shuv-it
+varial heelflip
+fakie fs bigger kickflip
+fakie bs big heelflip
+bs 180 kickflip manual nollie bs 180
+nollie triple heelflip
+inward quad heelflip
+nollie nose manual fs 180
+fakie bs big kickflip
+bs bigger heelflip
 switch fs big spin
-nollie 360 heelflip
-bs 360 triple kickflip
-switch 540 kickflip
-360 kickflip
+nollie bs bigger kickflip
+switch manual kickflip
+540 heelflip
+540 heelflip manual
+switch 540 inward heelflip
+kickflip manual
+fakie kickflip nose manual fakie kickflip
+fs 180 heelflip
+nollie nose manual heelflip
+switch inward heelflip
+switch fs 180 kickflip
+bs 360 heelflip
+nollie bs big kickflip
+switch 360 inward heelflip
+switch bs 360 manual heelflip
+switch manual bs pop shuv-it
+fakie bs 360 manual
+nollie bs 180 heelflip nose manual
+nollie bs 180 kickflip
+nollie fs 180 heelflip manual
+fakie bs 360 nose manual
+switch kickflip nose manual switch ollie
+fakie bs bigger heelflip
+nollie hardflip
+switch fs big heelflip
+switch quad kickflip
+switch bs 180 kickflip
+nollie bs bigger heelflip
+fakie fs pop shuv-it
+fakie 360 inward heelflip
+360 inward heelflip
+bs 180 ollie
+bs 540 pop shuv-it manual
+fs 180 ollie
+ollie
+nollie bs bigger spin
+switch bs 180 manual nollie fs pop shuv-it
+switch 540 heelflip
+fakie nose manual heelflip
+fakie bs 180 kickflip manual
+switch varial kickflip
+nollie bs 180
+fakie bs pop shuv-it
+fakie bs 180 heelflip manual fakie heelflip
+fakie bs bigger kickflip
+nollie varial heelflip
+heelflip nose manual
+bs bigger spin
+fakie hardflip
+switch 360 kickflip
+nollie bs pop shuv-it
+nollie double heelflip
+nollie fs 180 kickflip
+nollie fs bigger heelflip
+nollie bs 180 heelflip
+nollie 360 kickflip
+nollie fs 180 kickflip manual
+fakie 540 kickflip
+fakie fs 360 quad kickflip
+fs 360 kickflip
+nollie 540 inward heelflip
+switch fs bigger spin
+540 kickflip
+nollie fs pop shuv-it
+fakie varial kickflip
+nollie bs 540 pop shuv-it
+fakie bs 180 quad heelflip
+fakie 540 heelflip
+fs bigger kickflip
+switch manual fs 180
+switch inward double heelflip
+fakie fs big heelflip
+switch double heelflip
+nollie quad kickflip
+nollie fs big kickflip
+fs bigger spin
+bs big spin
+nollie triple kickflip
+nollie fs bigger kickflip
+fakie fs gazelle
+fakie 540 double kickflip
+switch 360 hardflip
+nollie bs 180 double heelflip
+double heelflip
+nollie varial double kickflip
+switch manual fs 180 heelflip
+switch fs 540 pop shuv-it
+fs 540 pop shuv-it
+bs 180 heelflip manual
+nollie fs 360 pop shuv-it
+fakie bs big spin
+nollie 360 kickflip nose manual
+nollie bs 180 quad kickflip
+360 heelflip
+fakie triple kickflip
+540 hardflip
+inward heelflip
+varial quad heelflip
+switch bs bigger spin
+bs big heelflip
+nollie fs 540 pop shuv-it
+switch bs 180 manual fakie fs 180
+nollie fs 360 quad heelflip
+bs 360 pop shuv-it
+fs 360 kickflip manual switch kickflip
+nollie fs gazelle
+nollie bs big heelflip
+540 inward heelflip
+fs 360 heelflip
+nollie quad heelflip
+switch bs gazelle
+nollie bs 360 pop shuv-it
+fakie bs 540 pop shuv-it
+fakie bs bigger spin
+nollie bs gazelle
+fakie 360 heelflip
+switch bs big heelflip
+switch fs gazelle
+fakie double heelflip
+nollie bs 180 heelflip manual
+fs gazelle
 bs 360 quad heelflip
 varial double kickflip
-360 inward heelflip
-fakie fs 360 pop shuv-it
-switch 540 hardflip
-nollie fs 360 quad heelflip
-nollie double kickflip
-varial quad heelflip
-bs 180 quad kickflip
-nollie double heelflip
-switch double kickflip
-switch fs 360 pop shuv-it
-switch bs 360 double kickflip
-fs 540 pop shuv-it
-switch varial double kickflip
-540 double kickflip
-540 hardflip
-fs 180 double kickflip
-nollie varial quad kickflip
-540 heelflip
-switch inward quad heelflip
-fakie double heelflip
-nollie fs 180 quad heelflip
-nollie 360 triple kickflip
-fakie varial triple kickflip
-fs 360 quad heelflip
-nollie fs 180 double kickflip
-switch 540 quad kickflip
-nollie bs 180 double kickflip
-switch impossible
-fs 180 quad heelflip
-nollie bs 180 triple kickflip
-bs 360 quad kickflip
-nollie inward double heelflip
-nollie 540 triple heelflip
-quad heelflip
-switch fs 180 double kickflip
-switch fs 180 quad heelflip
-nollie triple kickflip
-fakie fs 180 quad heelflip
-double heelflip
-fakie bs 360 double heelflip
-fakie bs 180 quad kickflip
-fakie quad kickflip
-fakie fs 540 pop shuv-it
-bs 180 double heelflip
-nollie fs 360 double kickflip
 quad kickflip
+switch double kickflip
+switch 540 hardflip
+nollie kickflip nose manual
+varial kickflip manual
+switch fs big kickflip
+nollie bs big spin
+switch bs 360 pop shuv-it
+nollie varial kickflip nose manual
+switch triple kickflip
+nollie 540 kickflip
+nollie fs 180 triple kickflip
+nollie nose manual hardflip
+fs bigger heelflip
+nollie heelflip manual
+bs big kickflip
+bs 360 double heelflip
+bs 540 pop shuv-it
+nollie varial quad heelflip
+switch fs 180 double kickflip
+switch bs 360 double heelflip
+switch 360 quad kickflip
+nollie nose manual kickflip
+nollie bs 180 kickflip manual
+nollie kickflip manual nollie kickflip
+fs big heelflip
+nollie varial double heelflip
+fakie fs 180 quad heelflip
 nollie inward quad heelflip
-fakie inward quad heelflip
-double kickflip
-fakie 540 triple heelflip
-fs 360 quad kickflip
-fs 180 double heelflip
+nollie double kickflip
+switch 540 kickflip
+switch quad heelflip
+fakie bs 180 double kickflip
+switch kickflip manual
+fakie bs big spin nose manual
+fakie varial quad heelflip
+fakie fs bigger spin
+fakie fs 360 pop shuv-it
+fakie 540 double heelflip
+nollie bs 180 triple heelflip
+fakie nose manual 540 kickflip
+fakie kickflip nose manual bs 180 kickflip
+fakie fs 540 pop shuv-it
+switch bs 180 double kickflip
+fakie impossible
+nollie 360 heelflip
+bs gazelle nose manual
+360 hardflip
+fakie bs 180 double heelflip
+fs big kickflip
+nollie double kickflip nose manual
+fakie 540 hardflip
+nollie 360 hardflip
+switch heelflip manual varial heelflip
+switch 540 quad heelflip
+nollie nose manual 360 heelflip
+nollie inward triple heelflip
+nollie fs 180 double kickflip
+nollie 360 quad kickflip
+fakie varial double kickflip
+360 kickflip
+nollie fs 180 quad heelflip
+nollie fs 180 double heelflip
+fs 180 quad kickflip
+manual bs gazelle
 fakie varial quad kickflip
+nollie nose manual bs 180 heelflip
+bs 360 quad kickflip
+double kickflip
+switch fs 180 quad kickflip
+bs 360 triple heelflip
+fakie ollie nose manual
+triple heelflip
+fakie quad heelflip
+nollie fs 360 double heelflip
+fakie quad kickflip
+nollie bs 180 triple kickflip
+bs 180 triple heelflip
+impossible
+switch heelflip manual
+switch 540 triple heelflip
+switch bs 180 double heelflip
+fakie fs 360 nose manual
+fakie inward quad heelflip
 switch bs 180 quad kickflip
-switch bs 360 triple kickflip
-switch fs 360 quad heelflip
-switch 360 double heelflip
+quad heelflip
+switch triple heelflip
+nollie fs 180 quad kickflip
+bs 180 quad heelflip
+nollie 360 double heelflip
+nollie varial triple kickflip
+switch double heelflip nose manual
+nollie 360 quad heelflip
+nollie bs 180 nose manual nollie fs 180
+nollie bs 180 quad heelflip
+manual varial double kickflip
+fakie nose manual fs 180
+fs 180 double kickflip
+fakie fs 180 quad kickflip
+switch varial quad kickflip
+fakie bs big spin nose manual fakie bs gazelle
