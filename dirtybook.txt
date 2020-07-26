@@ -1,500 +1,500 @@
-switch manual varial heelflip		0.0
-fakie nose manual kickflip		0.0
-fakie nose manual fs 180		0.0
-fakie 540 kickflip nose manual fakie ollie		0.0
-switch kickflip manual		0.0
-switch bs 180 nose manual		0.0
-fakie bs pop shuv-it manual		0.0
-switch fs pop shuv-it nose manual		0.0
-nollie nose manual hardflip		0.0
-nollie varial kickflip nose manual		0.0
-switch bs 180 kickflip nose manual		0.0
-manual 360 hardflip		0.0
-switch manual kickflip		0.0
-nollie heelflip manual fs pop shuv-it		0.0
-nollie fs 180 nose manual		0.0
-fakie nose manual bs pop shuv-it		0.0
-switch manual fs 180 heelflip		0.0
-manual hardflip		0.0
-nollie varial kickflip manual		0.0
-nollie kickflip nose manual		0.0
-fakie ollie manual		0.0
-bs 180 heelflip nose manual		0.0
-switch manual bs 180 kickflip		0.0
-nollie nose manual bs 180		0.0
-fakie nose manual inward heelflip		0.0
-switch manual bs 180		0.0
-nollie kickflip nose manual nollie bs 180		0.0
-switch bs 360 nose manual		0.0
-kickflip manual		0.0
-manual heelflip		0.0
-switch fs 360 manual		0.0
+nollie fs 180 heelflip nose manual		0.0
+fs pop shuv-it manual		0.0
+fakie varial kickflip nose manual		0.0
+manual fs big spin		0.0
 nollie nose manual		0.0
-varial heelflip manual fs 180 kickflip		0.0
+fakie nose manual bs 360		0.0
+switch ollie nose manual fakie bs pop shuv-it		0.0
+manual varial heelflip		0.0
+nollie nose manual bs 180 kickflip		0.0
+fakie inward heelflip nose manual		0.0
+nollie bs 180 nose manual fakie kickflip		0.0
+switch ollie manual		0.0
+nollie bs 180 heelflip manual		0.0
 fakie nose manual heelflip		0.0
-fakie bs 180 heelflip nose manual		0.0
-nollie fs 360 manual		0.0
-fakie bs 180 manual		0.0
-switch bs 180 kickflip nose manual nollie kickflip		0.0
-nollie nose manual bs 360		0.0
+fakie heelflip nose manual		0.0
+nollie fs 360 nose manual		0.0
+nollie kickflip nose manual		0.0
+switch fs 360 nose manual		0.0
+switch bs pop shuv-it nose manual		0.0
+switch fs 180 kickflip manual		0.0
+switch hardflip nose manual		0.0
+nollie bs pop shuv-it nose manual nollie fs 180		0.0
+switch manual fs 180		0.0
+switch kickflip nose manual		0.0
+switch fs 180 heelflip nose manual		0.0
+fakie fs 360 nose manual		0.0
+manual inward heelflip		0.0
+nollie nose manual kickflip		0.0
+fakie ollie nose manual fakie heelflip		0.0
+inward heelflip nose manual		0.0
 nollie heelflip manual		0.0
-nollie bs 360 nose manual		0.0
-fakie fs 360 manual		0.0
-fakie nose manual fs 180 heelflip		0.0
+nollie fs 180 manual		0.0
+nollie varial heelflip nose manual		0.0
+switch bs 360 nose manual		0.0
+manual varial kickflip		0.0
+fakie nose manual fs 180 kickflip		0.0
+360 kickflip manual		0.0
+fakie bs 180 manual		0.0
+switch kickflip manual		0.0
+fakie varial heelflip nose manual		0.0
 switch heelflip nose manual		0.0
-nollie nose manual fs 180 kickflip		0.0
-fakie nose manual fs pop shuv-it		0.0
-heelflip manual		0.0
+bs 180 ollie manual		0.0
+fakie fs 180 nose manual		0.0
+fakie bs 180 heelflip nose manual		0.0
+fakie nose manual hardflip		0.0
+nollie bs 180 nose manual		0.0
+fakie inward heelflip nose manual fakie bs 180		0.0
+manual fs 180 ollie		0.0
+switch bs 180 nose manual		0.0
+switch bs 180 heelflip manual		0.0
+switch manual varial heelflip		0.0
+hardflip nose manual		0.0
+fakie nose manual kickflip		0.0
+switch manual heelflip		0.0
+manual bs 180 kickflip		0.0
+fakie fs big spin nose manual		0.0
+switch fs 180 kickflip nose manual		0.0
+nollie bs 360 nose manual		0.0
+nollie nose manual fs 180 heelflip		0.0
+switch bs 360 nose manual fakie heelflip		0.0
+fakie kickflip manual		0.0
+fakie varial kickflip manual		0.0
+manual fs pop shuv-it		0.0
+switch manual bs 180 heelflip		0.0
+bs pop shuv-it nose manual		0.0
+manual bs 540 pop shuv-it		0.0
+inward heelflip manual		0.0
+switch manual fs 180 heelflip		0.0
 fakie bs 180 heelflip manual		0.0
 fakie bs 360 nose manual		0.0
-fakie fs 180 kickflip manual		0.0
-fakie nose manual hardflip		0.0
-nollie nose manual fs 180		0.0
-fakie hardflip manual		0.0
-switch manual bs 360		0.0
-fakie heelflip nose manual		0.0
-fakie fs big spin manual		0.0
-fakie nose manual varial heelflip		0.0
-fakie fs 360 manual heelflip		0.0
-fakie kickflip nose manual fakie kickflip		0.0
-switch varial heelflip manual		0.0
-fakie nose manual bs 360		0.0
-switch fs 180 manual		0.0
-switch heelflip manual		0.0
-nollie nose manual kickflip		0.0
-nollie bs 180 heelflip manual		0.0
-nollie nose manual varial heelflip		0.0
-manual bs pop shuv-it		0.0
-nollie varial heelflip nose manual		0.0
-nollie bs 180 kickflip nose manual		0.0
-bs pop shuv-it nose manual		0.0
-switch kickflip manual fs 180 heelflip		0.0
-nollie manual		0.0
-fs 180 kickflip nose manual		0.0
-nollie bs 180 nose manual fakie kickflip		0.0
-nollie heelflip manual ollie		0.0
-nollie nose manual heelflip		0.0
-nollie bs 360 manual		0.0
-nollie bs pop shuv-it nose manual		0.0
-nollie fs 180 kickflip manual		0.0
-fakie nose manual 540 kickflip		0.0
-nollie fs 180 heelflip manual		0.0
-nollie kickflip manual		0.0
-nollie heelflip nose manual		0.0
-fakie fs 180 kickflip nose manual		0.0
-switch varial heelflip nose manual		0.0
-fakie nose manual fs 180 kickflip		0.0
-nollie nose manual bs 180 heelflip		0.0
-fs 360 heelflip nose manual		0.0
-nollie bs 180 heelflip manual switch kickflip		0.0
-kickflip nose manual		0.0
-fakie heelflip manual		0.0
-varial kickflip manual		0.0
-manual bs 180 kickflip		0.0
-switch bs 180 manual		0.0
-switch manual heelflip		0.0
-manual impossible		0.0
-fakie fs pop shuv-it manual		0.0
-fakie varial kickflip nose manual fakie heelflip		0.0
-ollie manual fs 180 ollie		0.0
-fakie fs 540 pop shuv-it nose manual		0.0
-fakie bs pop shuv-it nose manual fakie heelflip		0.0
-nollie kickflip manual ollie		0.0
-switch fs 180 heelflip manual		0.0
-nollie nose manual varial kickflip		0.0
-nollie bs 180 kickflip manual		0.0
-fakie nose manual ollie		0.0
-nollie fs 360 nose manual		0.0
 switch bs 360 manual		0.0
-manual varial kickflip		0.0
+manual bs 360 kickflip		0.0
 fs pop shuv-it nose manual		0.0
-fakie inward heelflip nose manual		0.0
-hardflip manual		0.0
-bs 180 kickflip nose manual		0.0
-switch heelflip manual fs 180 heelflip		0.0
-manual fs 360 kickflip		0.0
-switch bs 360 manual ollie		0.0
-nollie nose manual fs 180 heelflip		0.0
-nollie fs 180 manual		0.0
-fakie fs 180 heelflip manual		0.0
-bs 180 ollie nose manual		0.0
-switch fs 180 nose manual		0.0
-nollie nose manual bs 180 kickflip		0.0
-fakie bs 180 kickflip nose manual		0.0
-manual bs 360 heelflip		0.0
-nollie double heelflip manual		0.0
-switch fs 180 manual bs 180 heelflip		0.0
-fakie bs 360 manual		0.0
-inward heelflip manual		0.0
-360 hardflip manual		0.0
-fakie fs 360 nose manual		0.0
-fakie fs 180 nose manual		0.0
-fakie kickflip manual kickflip		0.0
-switch fs 360 nose manual		0.0
-manual ollie		0.0
-bs 360 kickflip nose manual		0.0
-switch bs 180 heelflip manual		0.0
-nollie nose manual fs 360		0.0
-fakie kickflip manual bs 180 ollie		0.0
-switch fs 180 heelflip nose manual		0.0
-manual fs 180 ollie		0.0
-switch fs 180 kickflip manual		0.0
-nollie fs 180 manual switch heelflip		0.0
-manual kickflip		0.0
-switch manual ollie		0.0
-switch kickflip nose manual		0.0
-switch manual fs pop shuv-it		0.0
-nollie nose manual nollie fs 180		0.0
-fakie nose manual bs 180		0.0
-nollie fs pop shuv-it manual		0.0
-nollie bs 180 manual switch heelflip		0.0
-switch fs 180 kickflip manual bs pop shuv-it		0.0
-fakie varial heelflip nose manual		0.0
-nollie hardflip nose manual		0.0
-nollie bs 180 heelflip nose manual		0.0
-fakie fs 360 nose manual fakie kickflip		0.0
-fakie kickflip manual		0.0
 fakie kickflip nose manual		0.0
-switch manual fs 180		0.0
-manual varial double kickflip		0.0
-switch hardflip nose manual		0.0
-switch fs 180 kickflip nose manual		0.0
-manual bs big spin		0.0
-switch 360 heelflip manual		0.0
-fs 180 heelflip nose manual		0.0
-fakie nose manual bs 180 heelflip		0.0
-fs 180 heelflip manual		0.0
-fakie nose manual triple heelflip		0.0
-nollie kickflip manual bs 180 kickflip		0.0
-ollie nose manual		0.0
-double heelflip manual		0.0
-fakie varial kickflip manual		0.0
-fakie nose manual fs big spin		0.0
-fakie bs 180 kickflip manual		0.0
-nollie nose manual fs pop shuv-it		0.0
-fakie nose manual fs 360		0.0
-fs pop shuv-it manual		0.0
-switch hardflip manual switch ollie		0.0
-manual bs 180 heelflip		0.0
-varial heelflip nose manual		0.0
-nollie hardflip manual		0.0
-fakie inward heelflip manual		0.0
-fakie 540 kickflip nose manual		0.0
+fakie bs 180 nose manual		0.0
+hardflip manual		0.0
+bs 180 heelflip nose manual		0.0
+kickflip manual		0.0
+switch varial heelflip manual		0.0
+fakie nose manual bs 180		0.0
+manual bs pop shuv-it		0.0
 switch manual fs 360		0.0
-fakie fs 180 heelflip nose manual nollie kickflip		0.0
-bs pop shuv-it manual		0.0
-switch kickflip manual switch kickflip		0.0
+nollie bs 180 kickflip manual		0.0
+nollie varial kickflip nose manual		0.0
+switch fs pop shuv-it manual		0.0
+nollie varial kickflip nose manual nollie bs pop shuv-it		0.0
+fs 360 kickflip manual		0.0
+switch bs 180 manual kickflip		0.0
+switch bs 360 nose manual fakie kickflip		0.0
+nollie fs pop shuv-it nose manual		0.0
+switch kickflip nose manual fakie kickflip		0.0
 heelflip nose manual		0.0
 fakie bs pop shuv-it nose manual		0.0
-fakie inward heelflip manual kickflip		0.0
-fakie ollie nose manual		0.0
-fakie bs 180 heelflip nose manual ollie		0.0
-switch bs 180 heelflip nose manual		0.0
-nollie fs 180 heelflip nose manual fakie heelflip		0.0
-nollie heelflip manual kickflip		0.0
-bs 360 heelflip manual		0.0
-fakie fs 180 manual		0.0
-switch varial kickflip manual		0.0
-fakie fs 180 heelflip nose manual		0.0
-switch bs 180 kickflip nose manual nollie fs pop shuv-it		0.0
-fs 180 ollie manual		0.0
-fakie varial heelflip manual		0.0
-fakie nose manual varial kickflip		0.0
-fs 180 ollie nose manual		0.0
-switch manual varial kickflip		0.0
-fakie 360 heelflip manual		0.0
-nollie bs pop shuv-it manual		0.0
-nollie bs 180 nose manual		0.0
-ollie manual		0.0
-nollie impossible nose manual		0.0
-manual fs 360 heelflip		0.0
-switch varial kickflip nose manual		0.0
-fakie bs 180 double heelflip nose manual bs 180 kickflip		0.0
-fakie varial kickflip nose manual		0.0
-switch 360 kickflip nose manual		0.0
-switch ollie nose manual		0.0
-switch bs pop shuv-it manual		0.0
-bs 180 ollie manual		0.0
-nollie kickflip nose manual nollie kickflip		0.0
-fakie kickflip nose manual fakie ollie		0.0
-switch manual bs pop shuv-it		0.0
-manual bs 360 kickflip		0.0
-fakie 540 heelflip manual		0.0
-bs 180 kickflip manual		0.0
-manual 360 heelflip		0.0
-nollie varial kickflip nose manual nollie heelflip		0.0
-fakie bs 540 pop shuv-it nose manual		0.0
-fakie kickflip nose manual fakie heelflip		0.0
-switch manual bs 180 heelflip		0.0
-fakie nose manual fs 540 pop shuv-it		0.0
-fakie bs big spin manual		0.0
-varial kickflip nose manual		0.0
-manual fs 180 kickflip		0.0
-fakie nose manual bs 180 kickflip		0.0
-nollie fs pop shuv-it nose manual		0.0
-switch ollie manual		0.0
-fakie heelflip nose manual fakie heelflip		0.0
-bs 540 pop shuv-it nose manual		0.0
-switch 360 kickflip manual		0.0
-fs big spin nose manual		0.0
-nollie nose manual 360 kickflip		0.0
-nollie fs 180 kickflip nose manual		0.0
-switch fs 180 kickflip manual fs pop shuv-it		0.0
-hardflip nose manual		0.0
-fakie fs big spin nose manual		0.0
-fakie fs 180 heelflip nose manual nollie bs pop shuv-it		0.0
-fakie nose manual double kickflip		0.0
-nollie heelflip nose manual nollie fs 180		0.0
-manual fs big spin		0.0
-switch hardflip manual		0.0
-switch double kickflip manual		0.0
-nollie bs 180 manual		0.0
-fakie nose manual 360 kickflip		0.0
-fakie nose manual double heelflip		0.0
-switch fs 180 kickflip manual varial heelflip		0.0
-manual fs pop shuv-it		0.0
-switch fs pop shuv-it manual		0.0
-switch bs pop shuv-it nose manual		0.0
-nollie fs 180 heelflip nose manual		0.0
-switch fs 360 manual switch heelflip		0.0
-nollie nose manual nollie kickflip		0.0
-bs big spin nose manual		0.0
-fs 180 kickflip manual		0.0
-switch bs 180 kickflip manual		0.0
-switch bs 180 nose manual nollie heelflip		0.0
-fakie triple heelflip nose manual		0.0
-fakie nose manual bs 540 pop shuv-it		0.0
-fakie nose manual bs big spin		0.0
-nollie bs 180 kickflip manual switch kickflip		0.0
-manual inward heelflip		0.0
-switch fs 360 manual heelflip		0.0
-switch kickflip manual kickflip		0.0
-360 heelflip manual		0.0
-manual varial heelflip		0.0
-nollie bs 180 heelflip manual switch heelflip		0.0
-nollie kickflip nose manual nollie impossible		0.0
-switch fs 180 nose manual nollie kickflip		0.0
-fs 360 heelflip manual		0.0
-manual 540 kickflip		0.0
-varial heelflip manual		0.0
-nollie 360 kickflip nose manual		0.0
-fakie bs 180 nose manual		0.0
-fakie fs pop shuv-it nose manual		0.0
-nollie nose manual bs pop shuv-it		0.0
-fakie fs 180 double heelflip nose manual		0.0
-switch heelflip manual switch heelflip		0.0
-fakie 540 kickflip nose manual fakie bs 180		0.0
-switch 360 heelflip nose manual		0.0
-manual bs 180 ollie		0.0
-switch fs 180 manual ollie		0.0
-switch varial heelflip manual hardflip		0.0
-switch manual fs 180 kickflip		0.0
-switch hardflip manual heelflip		0.0
-fakie bs 360 nose manual fakie ollie		0.0
-nollie bs 180 kickflip nose manual fakie fs 180		0.0
-fakie fs 540 pop shuv-it manual		0.0
-nollie heelflip nose manual nollie heelflip		0.0
-switch impossible nose manual		0.0
-switch manual 360 heelflip		0.0
-manual 360 kickflip		0.0
-fakie heelflip manual fs 180 heelflip		0.0
-nollie kickflip nose manual nollie fs pop shuv-it		0.0
-bs 360 kickflip manual		0.0
-impossible manual		0.0
-bs 180 heelflip manual		0.0
-nollie kickflip manual heelflip		0.0
-fakie nose manual impossible		0.0
-nollie kickflip manual fs 180 heelflip		0.0
-fakie hardflip nose manual		0.0
-fakie varial kickflip manual bs pop shuv-it		0.0
-540 heelflip manual		0.0
-fs big spin manual		0.0
-switch varial kickflip manual switch bs pop shuv-it		0.0
-manual bs 540 pop shuv-it		0.0
-nollie nose manual double kickflip		0.0
-fakie bs 180 nose manual nollie heelflip		0.0
-nollie fs pop shuv-it manual varial kickflip		0.0
-nollie heelflip manual bs pop shuv-it		0.0
-fakie fs 180 kickflip nose manual nollie bs 180		0.0
-manual fs 540 pop shuv-it		0.0
-switch bs 360 manual switch ollie		0.0
-double kickflip nose manual		0.0
-switch bs 360 manual bs 180 ollie		0.0
-540 heelflip nose manual		0.0
-fakie bs 540 pop shuv-it manual		0.0
-fs 360 kickflip manual		0.0
-fakie triple heelflip manual		0.0
-fakie nose manual bs 180 double kickflip		0.0
-360 heelflip nose manual		0.0
-switch kickflip manual switch ollie		0.0
-nollie varial heelflip manual		0.0
-fakie bs 180 heelflip nose manual fs 180 kickflip		0.0
-switch bs pop shuv-it manual kickflip		0.0
-switch fs 360 manual switch kickflip		0.0
-switch bs 180 heelflip nose manual nollie kickflip		0.0
-switch manual hardflip		0.0
-fakie bs big spin nose manual		0.0
-fs 180 double kickflip nose manual		0.0
-360 kickflip nose manual		0.0
-switch kickflip manual bs 180 kickflip		0.0
-switch ollie manual switch heelflip		0.0
-manual fs 180 heelflip		0.0
-switch double heelflip nose manual		0.0
-switch heelflip manual fs 180 ollie		0.0
-switch fs 180 manual heelflip		0.0
-nollie bs 180 nose manual fakie heelflip		0.0
-bs 180 double kickflip manual		0.0
-varial heelflip manual varial kickflip		0.0
-inward heelflip nose manual		0.0
-bs big spin manual		0.0
-varial kickflip manual varial kickflip		0.0
-switch ollie manual bs 180 heelflip		0.0
-nollie kickflip manual kickflip		0.0
-nollie varial heelflip nose manual nollie		0.0
-switch varial kickflip manual varial heelflip		0.0
-fakie bs 180 heelflip nose manual nollie heelflip		0.0
-fakie varial heelflip manual hardflip		0.0
-fakie bs 180 heelflip nose manual fs 180 heelflip		0.0
-switch heelflip manual switch kickflip		0.0
-nollie bs 360 manual hardflip		0.0
-impossible nose manual		0.0
-nollie nose manual impossible		0.0
-switch heelflip manual ollie		0.0
-540 kickflip manual		0.0
-nollie bs 360 manual fs 180 ollie		0.0
-switch bs 360 manual hardflip		0.0
-switch bs 180 kickflip manual varial kickflip		0.0
-bs 360 heelflip nose manual		0.0
-fakie bs 180 kickflip nose manual bs 180 kickflip		0.0
-manual 360 double kickflip		0.0
-nollie varial heelflip manual bs pop shuv-it		0.0
-fakie 540 kickflip manual		0.0
-nollie fs 360 nose manual nollie heelflip		0.0
-bs 360 kickflip manual ollie		0.0
-540 kickflip manual bs 180 heelflip		0.0
-fakie bs 360 manual fs pop shuv-it		0.0
-fakie fs 180 kickflip nose manual heelflip		0.0
-switch kickflip manual ollie		0.0
-fakie fs 180 heelflip nose manual heelflip		0.0
-fakie fs 360 manual varial kickflip		0.0
-nollie bs 360 manual kickflip		0.0
-switch bs 180 kickflip nose manual nollie bs 180		0.0
-switch heelflip manual bs pop shuv-it		0.0
-fs 540 pop shuv-it manual		0.0
-manual 540 heelflip		0.0
-fakie impossible manual		0.0
-nollie 360 kickflip manual		0.0
-540 kickflip nose manual		0.0
-nollie 360 heelflip manual		0.0
-switch kickflip manual fs 180 kickflip		0.0
-nollie fs pop shuv-it nose manual nollie fs pop shuv-it		0.0
-fakie hardflip nose manual fakie kickflip		0.0
-fakie ollie manual bs 180 kickflip		0.0
-switch bs 180 kickflip manual kickflip		0.0
-fakie 360 heelflip nose manual		0.0
-fakie heelflip nose manual fakie ollie		0.0
-fakie kickflip manual varial heelflip		0.0
-switch bs 180 nose manual nollie kickflip		0.0
-switch 360 kickflip manual switch heelflip		0.0
-fakie varial heelflip manual heelflip		0.0
-fs 360 kickflip nose manual		0.0
-nollie heelflip nose manual nollie kickflip		0.0
-fakie bs 180 double kickflip nose manual nollie		0.0
-nollie fs 180 kickflip nose manual fakie kickflip		0.0
-fakie nose manual varial double heelflip		0.0
-bs 540 pop shuv-it manual kickflip		0.0
-switch manual 360 kickflip		0.0
-fakie bs 180 kickflip nose manual nollie kickflip		0.0
-fakie bs 180 heelflip nose manual nollie fs 180		0.0
-fakie fs 180 nose manual fs pop shuv-it		0.0
-fakie bs 360 nose manual fakie kickflip		0.0
-kickflip manual bs 180 kickflip		0.0
-fakie bs 360 nose manual fakie fs 180		0.0
-nollie fs 180 kickflip manual switch heelflip		0.0
-nollie heelflip manual bs 180 heelflip		0.0
-ollie manual bs 180 kickflip		0.0
-fakie kickflip manual ollie		0.0
-switch double kickflip nose manual		0.0
-fakie varial heelflip nose manual fakie ollie		0.0
-bs 360 heelflip manual kickflip		0.0
-nollie varial kickflip manual ollie		0.0
-switch hardflip manual switch heelflip		0.0
-fakie double heelflip manual		0.0
-switch manual double kickflip		0.0
-fakie triple kickflip manual		0.0
-nollie kickflip manual bs pop shuv-it		0.0
-nollie bs 180 nose manual fakie fs 180		0.0
-nollie bs 360 nose manual nollie bs pop shuv-it		0.0
-bs 180 double heelflip manual		0.0
-switch bs pop shuv-it manual switch heelflip		0.0
-switch heelflip manual varial kickflip		0.0
-fakie heelflip manual kickflip		0.0
-nollie bs 360 manual ollie		0.0
-fakie double heelflip nose manual		0.0
-fakie bs big spin manual bs 180 kickflip		0.0
-fakie kickflip manual heelflip		0.0
-switch hardflip manual fs pop shuv-it		0.0
-fakie 360 kickflip manual		0.0
-fakie bs 360 nose manual fakie bs pop shuv-it		0.0
-nollie fs 360 manual fs pop shuv-it		0.0
-nollie bs pop shuv-it manual varial heelflip		0.0
-nollie fs 360 manual bs 180 kickflip		0.0
-fakie fs 180 heelflip nose manual fs 180 heelflip		0.0
-nollie bs 360 nose manual nollie kickflip		0.0
-nollie double kickflip manual bs 180 kickflip		0.0
-nollie kickflip manual fs pop shuv-it		0.0
-nollie bs 180 heelflip nose manual fakie heelflip		0.0
-fs 540 pop shuv-it nose manual		0.0
-nollie double kickflip nose manual nollie heelflip		0.0
-fakie bs 540 pop shuv-it nose manual fakie fs 180		0.0
-fakie bs 180 kickflip nose manual nollie bs 180		0.0
-fakie bs 180 heelflip nose manual nollie fs pop shuv-it		0.0
-nollie hardflip nose manual nollie kickflip		0.0
-switch kickflip manual switch heelflip		0.0
-540 kickflip manual varial kickflip		0.0
-360 kickflip manual		0.0
+fakie nose manual varial heelflip		0.0
 nollie kickflip nose manual nollie heelflip		0.0
-fakie nose manual bs 180 double heelflip		0.0
-fakie heelflip manual bs 180 kickflip		0.0
-switch varial heelflip manual switch ollie		0.0
-bs pop shuv-it manual varial kickflip		0.0
-nollie bs 180 kickflip manual switch heelflip		0.0
-fakie inward heelflip manual bs 180 heelflip		0.0
-fakie 540 heelflip nose manual		0.0
-nollie heelflip manual varial heelflip		0.0
-nollie fs pop shuv-it nose manual nollie heelflip		0.0
-fakie bs 360 manual kickflip		0.0
-nollie double kickflip manual		0.0
-fakie varial kickflip manual bs 180 heelflip		0.0
-fakie fs pop shuv-it nose manual fakie kickflip		0.0
-nollie fs 180 kickflip nose manual fakie bs pop shuv-it		0.0
-switch double kickflip manual switch kickflip		0.0
-nollie kickflip manual varial kickflip		0.0
-switch heelflip manual switch fs pop shuv-it		0.0
-fakie bs 180 nose manual heelflip		0.0
-nollie heelflip nose manual nollie		0.0
-fakie bs pop shuv-it nose manual fakie fs pop shuv-it		0.0
-switch fs 180 nose manual nollie heelflip		0.0
-fakie nose manual 540 heelflip		0.0
-fakie bs 180 kickflip nose manual nollie heelflip		0.0
-nollie heelflip nose manual nollie bs pop shuv-it		0.0
-nollie bs 180 manual switch kickflip		0.0
-switch hardflip manual impossible		0.0
-fakie heelflip manual ollie		0.0
-nollie bs 180 heelflip nose manual fakie ollie		0.0
-switch fs 180 heelflip nose manual nollie kickflip		0.0
-360 kickflip manual ollie		0.0
-fakie heelflip nose manual fakie kickflip		0.0
-nollie fs 180 heelflip manual switch ollie		0.0
-nollie bs 180 kickflip nose manual fakie heelflip		0.0
-heelflip manual bs 180 kickflip		0.0
-nollie double kickflip manual kickflip		0.0
-fs 360 heelflip manual bs 180 heelflip		0.0
-nollie bs pop shuv-it manual kickflip		0.0
-nollie bs 180 kickflip nose manual fakie bs 180		0.0
-fakie impossible nose manual		0.0
-nollie bs 360 manual fs pop shuv-it		0.0
-switch heelflip manual heelflip		0.0
-switch bs 180 heelflip nose manual nollie heelflip		0.0
-switch bs 360 manual switch heelflip		0.0
+switch 360 kickflip nose manual		0.0
+ollie manual		0.0
+switch fs 180 manual		0.0
+nollie kickflip manual		0.0
+bs 180 kickflip nose manual		0.0
+nollie nose manual fs 180 kickflip		0.0
+bs pop shuv-it manual		0.0
+switch bs 180 manual		0.0
+switch fs 180 heelflip manual		0.0
 bs 540 pop shuv-it manual		0.0
+switch ollie nose manual		0.0
+ollie nose manual		0.0
+bs 360 heelflip manual heelflip		0.0
+fakie nose manual ollie		0.0
+switch bs 180 manual bs 180 heelflip		0.0
+nollie fs 180 kickflip manual		0.0
+nollie nose manual fs 180		0.0
+fakie bs 180 kickflip manual		0.0
+switch bs 180 kickflip manual		0.0
+switch fs 360 manual		0.0
+switch fs 180 kickflip nose manual nollie heelflip		0.0
+nollie bs 180 heelflip manual switch ollie		0.0
+fakie nose manual fs 180		0.0
+switch kickflip nose manual fakie ollie		0.0
+fakie heelflip manual		0.0
+fakie nose manual fs 360		0.0
+fakie nose manual double heelflip		0.0
+switch 360 kickflip manual		0.0
+nollie heelflip nose manual		0.0
+heelflip manual		0.0
+fakie heelflip nose manual fakie bs 180		0.0
+switch bs 180 heelflip nose manual		0.0
+fakie fs pop shuv-it manual		0.0
+bs 360 kickflip manual		0.0
+fakie bs 180 kickflip nose manual nollie		0.0
+fakie nose manual bs pop shuv-it		0.0
+bs 180 ollie nose manual		0.0
+varial kickflip nose manual		0.0
+nollie bs 180 heelflip nose manual		0.0
+nollie bs pop shuv-it nose manual		0.0
+nollie fs 180 heelflip manual		0.0
+switch manual bs pop shuv-it		0.0
+nollie fs 360 manual		0.0
+bs 360 heelflip nose manual		0.0
+heelflip nose manual nollie heelflip		0.0
+nollie kickflip nose manual nollie bs 180		0.0
+fakie nose manual bs 180 heelflip		0.0
+fs 360 heelflip manual		0.0
+nollie bs 180 kickflip manual switch fs pop shuv-it		0.0
+fakie fs 180 manual		0.0
+varial heelflip manual hardflip		0.0
+switch manual kickflip		0.0
+nollie varial heelflip manual		0.0
+kickflip nose manual		0.0
+nollie nose manual bs 360		0.0
+manual heelflip		0.0
+switch manual bs 360		0.0
+double heelflip manual		0.0
+fakie fs pop shuv-it nose manual		0.0
+bs 360 kickflip manual hardflip		0.0
+manual 360 heelflip		0.0
+switch bs 180 nose manual nollie fs 180		0.0
+switch heelflip manual		0.0
+fs 180 heelflip nose manual		0.0
+fakie nose manual 540 kickflip		0.0
+switch manual hardflip		0.0
+nollie nose manual heelflip		0.0
+nollie fs 180 nose manual		0.0
+fakie bs pop shuv-it manual		0.0
+switch manual bs 180 kickflip		0.0
+switch bs pop shuv-it nose manual fakie kickflip		0.0
+nollie nose manual varial kickflip		0.0
+nollie bs 360 manual		0.0
+fakie nose manual fs 180 heelflip		0.0
+nollie nose manual fs pop shuv-it		0.0
+switch varial kickflip manual		0.0
+fakie ollie manual		0.0
+nollie fs pop shuv-it manual		0.0
+switch double heelflip nose manual		0.0
+fakie ollie nose manual		0.0
+nollie nose manual fs 360		0.0
+bs 180 heelflip nose manual fakie heelflip		0.0
+varial kickflip manual		0.0
+fs 180 ollie nose manual fakie fs 180		0.0
+fakie 540 kickflip nose manual		0.0
+fakie nose manual bs 180 kickflip		0.0
+varial kickflip manual kickflip		0.0
+fakie nose manual 360 kickflip		0.0
+nollie fs 360 nose manual nollie kickflip		0.0
+bs 180 ollie nose manual fakie heelflip		0.0
+fakie fs 360 manual		0.0
+switch manual 360 kickflip		0.0
+fakie fs 540 pop shuv-it manual		0.0
+switch fs 180 manual heelflip		0.0
+varial heelflip nose manual nollie fs 180		0.0
+nollie bs 180 manual		0.0
+360 hardflip manual		0.0
+manual ollie		0.0
+switch kickflip manual switch kickflip		0.0
+fakie nose manual fs pop shuv-it		0.0
+fakie 540 heelflip nose manual		0.0
+manual bs 360 heelflip		0.0
+fakie bs 360 manual		0.0
+fakie bs 180 kickflip nose manual		0.0
+switch ollie manual switch kickflip		0.0
+fs 360 heelflip nose manual		0.0
+nollie bs 360 nose manual nollie fs 180		0.0
+manual fs 180 heelflip		0.0
+nollie heelflip nose manual nollie bs 180		0.0
+manual bs 180 ollie		0.0
+switch manual varial kickflip		0.0
+nollie fs 180 kickflip manual switch kickflip		0.0
+nollie varial kickflip manual		0.0
+manual fs 360 heelflip		0.0
+switch bs 180 heelflip nose manual nollie kickflip		0.0
+nollie nose manual hardflip		0.0
+switch bs pop shuv-it nose manual fakie bs pop shuv-it		0.0
+nollie fs 180 kickflip nose manual		0.0
+nollie nose manual bs pop shuv-it		0.0
+fakie bs 180 nose manual nollie kickflip		0.0
+switch manual bs 180		0.0
+switch heelflip nose manual fakie bs pop shuv-it		0.0
+nollie hardflip manual		0.0
+switch bs pop shuv-it manual switch heelflip		0.0
+nollie bs 180 kickflip nose manual		0.0
+fakie fs 180 kickflip nose manual		0.0
+switch fs 180 nose manual		0.0
+switch manual ollie		0.0
+nollie manual		0.0
+fs 360 heelflip nose manual nollie fs 180		0.0
+fakie triple heelflip nose manual		0.0
+fs 180 heelflip manual		0.0
+fakie nose manual fs big spin		0.0
+nollie nose manual bs 180 heelflip		0.0
+fakie fs 180 kickflip manual		0.0
+fakie varial kickflip nose manual fakie fs 180		0.0
+fakie impossible nose manual		0.0
+switch bs 180 kickflip nose manual		0.0
+fakie fs 540 pop shuv-it nose manual		0.0
+fakie fs 180 heelflip manual		0.0
+fakie double kickflip manual		0.0
+fakie double heelflip nose manual fakie kickflip		0.0
+fakie bs 180 heelflip nose manual nollie heelflip		0.0
+varial heelflip nose manual		0.0
+fakie heelflip nose manual fakie fs pop shuv-it		0.0
+bs 180 kickflip manual		0.0
+fs 180 kickflip nose manual		0.0
+switch manual impossible		0.0
+fakie 360 heelflip manual		0.0
+nollie nose manual bs 180		0.0
+fakie nose manual varial kickflip		0.0
+360 kickflip nose manual		0.0
+heelflip manual fs pop shuv-it		0.0
+nollie 360 kickflip manual		0.0
+switch manual fs 180 kickflip		0.0
+nollie bs 360 manual kickflip		0.0
+switch fs pop shuv-it nose manual		0.0
+fakie varial heelflip manual		0.0
+switch fs pop shuv-it nose manual fakie kickflip		0.0
+nollie fs 180 kickflip manual switch ollie		0.0
+manual 360 double kickflip		0.0
+manual 360 hardflip		0.0
+ollie manual fs pop shuv-it		0.0
+fs 180 heelflip manual switch heelflip		0.0
+switch heelflip nose manual fakie kickflip		0.0
+nollie bs 360 nose manual nollie bs pop shuv-it		0.0
+fs 180 ollie nose manual		0.0
+fs big spin nose manual		0.0
+switch manual double heelflip		0.0
+switch hardflip manual		0.0
+manual fs 360 kickflip		0.0
+bs 360 kickflip nose manual		0.0
+nollie nose manual varial heelflip		0.0
+fakie hardflip manual		0.0
+manual bs big spin		0.0
+manual hardflip		0.0
+nollie hardflip nose manual		0.0
+switch fs 180 heelflip manual heelflip		0.0
+bs big spin nose manual		0.0
+540 heelflip nose manual		0.0
+fakie fs 180 heelflip nose manual		0.0
+switch heelflip nose manual fakie ollie		0.0
+manual fs 180 kickflip		0.0
+switch bs 180 manual ollie		0.0
+nollie double heelflip manual		0.0
+manual kickflip		0.0
+nollie fs 360 manual heelflip		0.0
+fs 180 double heelflip manual		0.0
+fakie inward heelflip nose manual fakie ollie		0.0
+switch double kickflip manual		0.0
+switch 360 heelflip nose manual		0.0
+bs 360 heelflip manual		0.0
+switch varial kickflip nose manual		0.0
+manual 540 heelflip		0.0
+nollie bs 180 nose manual fakie heelflip		0.0
+fakie heelflip nose manual fakie kickflip		0.0
+fs 180 kickflip manual		0.0
+fakie fs 180 kickflip nose manual nollie heelflip		0.0
+fakie ollie nose manual fakie bs pop shuv-it		0.0
+nollie nose manual nollie heelflip		0.0
+fakie nose manual bs 540 pop shuv-it		0.0
+fakie nose manual fs 540 pop shuv-it		0.0
+fakie bs 540 pop shuv-it manual		0.0
+varial heelflip manual varial kickflip		0.0
+nollie heelflip nose manual nollie		0.0
+fakie 360 kickflip manual		0.0
+switch bs 360 manual switch heelflip		0.0
+fs 360 kickflip nose manual		0.0
+manual double kickflip		0.0
+nollie bs 180 heelflip manual switch kickflip		0.0
+switch impossible nose manual		0.0
+switch double heelflip manual		0.0
+fakie hardflip nose manual		0.0
+fakie 360 heelflip nose manual		0.0
+nollie impossible nose manual		0.0
+fakie nose manual 360 heelflip		0.0
+switch impossible manual		0.0
+nollie heelflip manual heelflip		0.0
+fakie bs big spin manual		0.0
+fakie inward heelflip nose manual fakie fs 180		0.0
+nollie kickflip nose manual nollie fs pop shuv-it		0.0
+nollie fs pop shuv-it nose manual nollie heelflip		0.0
+switch bs pop shuv-it manual		0.0
+triple kickflip manual hardflip		0.0
+manual bs 180 heelflip		0.0
+fakie fs 360 nose manual fakie fs 180		0.0
+switch bs 180 kickflip manual fs pop shuv-it		0.0
+switch hardflip nose manual fakie heelflip		0.0
+heelflip manual bs 180 heelflip		0.0
+fakie varial heelflip nose manual fakie heelflip		0.0
+varial heelflip manual		0.0
+nollie heelflip nose manual nollie heelflip		0.0
+switch bs 180 heelflip nose manual nollie heelflip		0.0
+switch manual 360 heelflip		0.0
+impossible nose manual		0.0
+heelflip manual fs 180 kickflip		0.0
+nollie manual fs 180 heelflip		0.0
+kickflip manual bs pop shuv-it		0.0
+fakie bs 180 kickflip manual heelflip		0.0
+fakie inward heelflip manual		0.0
+switch bs 180 nose manual nollie heelflip		0.0
+switch kickflip nose manual fakie impossible		0.0
+fs big spin manual		0.0
+fs 180 ollie manual		0.0
+fakie fs 180 kickflip nose manual nollie fs 180		0.0
+fakie nose manual inward heelflip		0.0
+nollie bs pop shuv-it manual		0.0
+varial kickflip manual varial heelflip		0.0
+nollie bs 180 manual switch kickflip		0.0
+540 heelflip manual bs 180 ollie		0.0
+fakie kickflip nose manual fakie heelflip		0.0
+nollie 360 heelflip nose manual		0.0
+switch manual fs pop shuv-it		0.0
+nollie bs 180 heelflip nose manual fakie fs 180		0.0
+fakie double heelflip manual		0.0
+nollie varial kickflip manual kickflip		0.0
+fs 540 pop shuv-it manual		0.0
+fakie bs 180 nose manual nollie heelflip		0.0
+fakie nose manual 540 heelflip		0.0
+fakie bs 540 pop shuv-it nose manual		0.0
+fs 180 ollie manual switch kickflip		0.0
+fs 360 kickflip manual bs 180 heelflip		0.0
+switch bs 180 heelflip manual varial kickflip		0.0
+nollie fs 180 heelflip nose manual fakie bs pop shuv-it		0.0
+nollie bs 180 heelflip manual switch heelflip		0.0
+fakie bs pop shuv-it nose manual fakie heelflip		0.0
+fs 180 kickflip nose manual fakie kickflip		0.0
+switch bs 360 manual switch ollie		0.0
+fs 180 double heelflip manual switch heelflip		0.0
+switch fs 180 kickflip manual bs pop shuv-it		0.0
+nollie fs 360 nose manual nollie fs 180		0.0
+fakie kickflip nose manual fakie bs pop shuv-it		0.0
+bs 180 heelflip manual		0.0
+fakie 360 kickflip nose manual		0.0
+switch bs 180 kickflip nose manual nollie		0.0
+switch fs 180 manual varial heelflip		0.0
+ollie manual fs 180 ollie		0.0
+kickflip manual varial kickflip		0.0
+fs 540 pop shuv-it manual fs pop shuv-it		0.0
+fakie ollie nose manual fakie bs 180		0.0
+fakie nose manual impossible		0.0
+fakie bs 180 heelflip manual fs 180 kickflip		0.0
+fs 360 heelflip manual bs pop shuv-it		0.0
+manual 360 kickflip		0.0
+bs 180 double heelflip nose manual		0.0
+nollie bs 360 manual ollie		0.0
+bs big spin manual		0.0
+fakie bs 360 nose manual fakie kickflip		0.0
+nollie fs 180 heelflip manual switch heelflip		0.0
+fakie heelflip nose manual fakie ollie		0.0
+fakie bs 180 double kickflip nose manual		0.0
+fakie nose manual bs big spin		0.0
+fakie fs 180 heelflip manual kickflip		0.0
+nollie bs 180 kickflip nose manual fakie heelflip		0.0
+fakie nose manual varial double heelflip		0.0
+inward heelflip manual double heelflip		0.0
+fs 180 heelflip nose manual fakie ollie		0.0
+switch fs pop shuv-it manual switch kickflip		0.0
+fs 180 double kickflip manual		0.0
+540 heelflip manual		0.0
+switch varial heelflip nose manual		0.0
+nollie bs 180 kickflip manual switch heelflip		0.0
+nollie 360 kickflip nose manual		0.0
+switch kickflip nose manual fakie heelflip		0.0
+nollie bs 360 manual bs 180 kickflip		0.0
+switch fs 180 heelflip manual ollie		0.0
+nollie kickflip manual bs 180 ollie		0.0
+switch bs 180 manual varial kickflip		0.0
+nollie hardflip manual bs pop shuv-it		0.0
+nollie varial heelflip nose manual nollie		0.0
+fakie nose manual double kickflip		0.0
+nollie double heelflip nose manual		0.0
+fs 360 kickflip nose manual nollie bs pop shuv-it		0.0
+switch 360 heelflip manual		0.0
+nollie nose manual double heelflip		0.0
+nollie nose manual 360 heelflip		0.0
+fakie fs 360 nose manual fakie bs 180		0.0
+nollie heelflip nose manual nollie kickflip		0.0
+switch bs 360 nose manual fakie fs pop shuv-it		0.0
+switch bs pop shuv-it nose manual fakie heelflip		0.0
+fakie bs 180 heelflip manual varial heelflip		0.0
+switch varial heelflip manual switch heelflip		0.0
+switch heelflip nose manual fakie fs 180		0.0
+switch bs 180 heelflip manual heelflip		0.0
+nollie fs 180 manual switch heelflip		0.0
+manual varial double heelflip		0.0
+fakie kickflip nose manual fakie fs pop shuv-it		0.0
+nollie bs 360 nose manual nollie		0.0
+switch bs 180 kickflip manual ollie		0.0
+switch fs 180 kickflip manual fs 180 ollie		0.0
+fs 540 pop shuv-it nose manual		0.0
+switch heelflip nose manual fakie bs 180		0.0
+nollie 360 heelflip nose manual nollie kickflip		0.0
+fakie fs big spin manual		0.0
+fakie bs 180 heelflip nose manual nollie		0.0
+nollie heelflip nose manual nollie bs pop shuv-it		0.0
+fakie 540 kickflip nose manual fakie heelflip		0.0
+fakie varial kickflip nose manual fakie bs 180		0.0
+switch bs 360 manual switch bs pop shuv-it		0.0
+switch heelflip manual switch kickflip		0.0
+switch fs 180 heelflip nose manual nollie bs pop shuv-it		0.0
+switch bs 180 heelflip manual fs 180 kickflip		0.0
+bs 180 ollie nose manual fakie ollie		0.0
+switch bs 180 manual fs pop shuv-it		0.0
+nollie heelflip manual kickflip		0.0
+nollie manual fs 180 ollie		0.0
+nollie double kickflip manual		0.0
+360 hardflip nose manual		0.0
+manual triple kickflip		0.0
+ollie nose manual nollie kickflip		0.0
+ollie manual bs pop shuv-it		0.0
+nollie bs pop shuv-it nose manual nollie kickflip		0.0
+switch fs pop shuv-it manual switch heelflip		0.0
+switch fs 180 manual varial kickflip		0.0
+bs 360 heelflip manual bs pop shuv-it		0.0
+switch bs 180 kickflip manual fs 180 ollie		0.0
+fakie fs 180 manual ollie		0.0
+nollie bs 180 manual switch heelflip		0.0
+nollie varial heelflip manual heelflip		0.0
+nollie manual fs 180 kickflip		0.0
+fakie fs 180 double kickflip manual		0.0
+nollie heelflip manual hardflip		0.0
+fakie fs 180 heelflip manual ollie		0.0
+kickflip manual heelflip		0.0
+nollie hardflip manual bs 180 heelflip		0.0
+fakie fs 360 nose manual fakie ollie		0.0
+switch fs 360 manual switch kickflip		0.0
+switch ollie nose manual fakie heelflip		0.0
+fakie fs 360 nose manual fakie heelflip		0.0
+switch bs 360 nose manual fakie bs 180		0.0
+nollie bs 180 nose manual fakie bs 180		0.0
+fakie 540 kickflip manual		0.0
+nollie nose manual impossible		0.0
+inward heelflip nose manual nollie fs pop shuv-it		0.0
+nollie fs 180 kickflip nose manual fakie kickflip		0.0
+nollie kickflip manual varial kickflip		0.0
+impossible manual		0.0
+ollie manual fs 180 kickflip		0.0
+switch bs 180 kickflip manual bs pop shuv-it		0.0
+kickflip nose manual nollie fs pop shuv-it		0.0
+nollie kickflip manual kickflip		0.0
+fakie bs 180 nose manual nollie bs 180		0.0
+nollie kickflip manual fs 180 heelflip		0.0
+switch manual double kickflip		0.0
+fakie bs 180 heelflip manual bs 180 heelflip		0.0
+switch heelflip manual switch heelflip		0.0
+360 kickflip manual bs pop shuv-it		0.0
+switch fs 360 nose manual fakie fs 180		0.0
+nollie manual heelflip		0.0
+fakie triple kickflip manual		0.0
+bs 180 double kickflip manual switch fs pop shuv-it		0.0
+manual fs 540 pop shuv-it		0.0
+switch kickflip nose manual fakie fs 180		0.0
+bs 360 heelflip nose manual nollie kickflip		0.0
+switch varial heelflip nose manual fakie ollie		0.0
+fakie double kickflip nose manual		0.0
+fakie fs 360 nose manual fakie kickflip		0.0
+switch heelflip nose manual fakie heelflip		0.0
+nollie bs 180 heelflip nose manual fakie kickflip		0.0
+nollie 360 heelflip manual		0.0
+switch kickflip manual switch heelflip		0.0
+360 heelflip manual		0.0
+fs pop shuv-it manual ollie		0.0
+switch hardflip nose manual fakie kickflip		0.0
+360 heelflip nose manual		0.0

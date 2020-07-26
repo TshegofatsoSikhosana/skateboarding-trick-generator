@@ -208,7 +208,7 @@ public class Trick
 								//System.out.println(" Rotation t1 : "+ t1_rotation + " and the trick is " + str_combo);
 								// now checking the stance combinations
 								// using index = 0 in components because in a trick the stance comes first
-								if(t1_components[0].equals("switch") && t2_stance.equals("normal"))
+								if((t1_components[0].equals("switch") || t1_components[0].equals("fakie")) && t2_stance.equals("normal"))
 								{
 									str_combo = str_combo + " " + trick;
 								}
@@ -235,17 +235,13 @@ public class Trick
 									}
 									else
 									{
-										t2_stance = "normal"; // Regular/Goofy
+										t1_stance = "normal"; // Regular/Goofy
 									}
 									
 									
 									if(t1_stance.equals("normal"))
 									{
-										if(t2_stance.equals("fakie"))
-										{
-											str_combo = str_combo + " " + trick;
-										}
-										else if(t2_stance.equals("switch"))
+										if(t2_stance.equals("switch"))
 										{
 											str_combo = str_combo + " " + trick;
 										}
@@ -260,10 +256,6 @@ public class Trick
 								{
 									str_combo = str_combo + " " + trick;
 								}
-								else if(t1_components[0].equals("fakie") && t2_stance.equals("normal"))
-								{
-									str_combo = str_combo + " " + trick;
-								}
 								else if(t1_components[0].equals("fakie") && t2_stance.equals("nollie"))
 								{
 									str_combo = str_combo + " " + trick;
@@ -271,6 +263,35 @@ public class Trick
 								else if(t1_components[0].equals("switch") && t2_stance.equals("nollie"))
 								{
 									str_combo = str_combo + " " + trick;
+								}
+								else
+								{
+									String t1_stance = "";
+																		
+									//get the current trick (t1) Stance
+									if(bdc.Stance(t1_components[0].trim()) > 0)
+									{
+										//bdc.Stance(t1_components[0]);
+										if(bdc.Spins(trick))
+										{
+											
+										}
+										t1_stance = t1_components[0].trim();
+										//i = t1_components.length;
+									}
+									else
+									{
+										t1_stance = "normal"; // Regular/Goofy
+									}
+									
+									
+									if(t1_stance.equals("normal"))
+									{
+										if(t2_stance.equals("fakie"))
+										{
+											str_combo = str_combo + " " + trick;
+										}
+									}
 								}
 							}
 						}
@@ -283,31 +304,39 @@ public class Trick
 							{
 								if(!t2_stance.trim().equals("fakie") && !t2_stance.trim().equals("nollie"))
 								{
-									if((t1_components[0].equals("switch") && t2_stance.equals("fakie"))  || (t1_components[0].equals("switch") && t2_stance.trim().equals("switch")))
+									if((t1_components[0].equals("fakie") || t2_stance.equals("switch"))  && (t1_components[0].equals("switch") && t2_stance.trim().equals("switch")))
+									{
+										str_combo = str_combo + " " + trick;
+									}
+									else if(t1_components[0].trim().equals("nollie") && t2_stance.trim().equals("normal"))
 									{
 										str_combo = str_combo + " " + trick;
 									}
 									else 
 									{
 										
-										int t1_stance = 10;
+										String t1_stance = "";
 										
-										for(int i = 0; i < t1_components.length; i++)
+										//get the current trick (t1) Stance
+										if(bdc.Stance(t1_components[0].trim()) > 0)
 										{
-											if(bdc.Stance(t1_components[i].trim()) == 0) //it is normal stance
+											//bdc.Stance(t1_components[0]);
+											if(bdc.Spins(trick))
 											{
-												t1_stance = bdc.Stance(t1_components[i]);
-												break;
+												
 											}
+											t1_stance = t1_components[0].trim();
+											//i = t1_components.length;
+										}
+										else
+										{
+											t1_stance = "normal"; // Regular/Goofy
 										}
 										
-										if(t1_stance == 0)		//t1 is in normal stance
+										
+										if(t1_stance.equals("normal"))
 										{
 											if(t2_stance.equals("normal"))
-											{
-												str_combo = str_combo + " " + trick;
-											}
-											else if(t2_stance.equals("nollie"))
 											{
 												str_combo = str_combo + " " + trick;
 											}
@@ -319,13 +348,42 @@ public class Trick
 							{
 								if(!t2_stance.trim().equals("switch") && !t2_stance.trim().equals("normal"))
 								{
-									if((t1_components[0].equals("nollie") && ( t2_stance.trim().equals("nollie") || t2_stance.trim().equals("normal"))))
+									if((t1_components[0].equals("fakie") || t1_components[0].trim().equals("switch")) && t2_stance.trim().equals("fakie"))
 									{
 										str_combo = str_combo + " " + trick;
 									}
-									else if((t1_components[0].equals("fakie") && ( t2_stance.trim().equals("fakie") || t2_stance.trim().equals("switch"))))
+									else if(t1_components[0].trim().equals("nollie") && t2_stance.trim().equals("nollie"))
 									{
 										str_combo = str_combo + " " + trick;
+									}
+									else
+									{
+										String t1_stance = "";
+										
+										//get the current trick (t1) Stance
+										if(bdc.Stance(t1_components[0].trim()) > 0)
+										{
+											//bdc.Stance(t1_components[0]);
+											if(bdc.Spins(trick))
+											{
+												
+											}
+											t1_stance = t1_components[0].trim();
+											//i = t1_components.length;
+										}
+										else
+										{
+											t1_stance = "normal"; // Regular/Goofy
+										}
+										
+										
+										if(t1_stance.equals("normal"))
+										{
+											if(t2_stance.equals("nollie"))
+											{
+												str_combo = str_combo + " " + trick;
+											}
+										}
 									}
 								}	
 							}						
