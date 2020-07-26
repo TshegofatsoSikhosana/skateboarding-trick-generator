@@ -145,7 +145,7 @@ public class TrickComponents {
 			{
 				if((count/2)%3 == 0)
 				{
-					str_flip_count = "quad";
+					//str_flip_count = "quad";
 				}
 			}
 			else if(count%5 == 0 )

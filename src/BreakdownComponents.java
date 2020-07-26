@@ -1,14 +1,34 @@
 
 public class BreakdownComponents {	//rating is from 1-5 for the trick
 	
-	public int pop,stance,flip,board_spin,board_rotation,body_rotation,flip_count,flip_pop;
+	public int pop,stance,flip,board_spin,board_rotation,body_rotation,flip_count,flip_pop,manual;
 	
 	public double avg = Avg();
 	
 	public double Avg()
 	{
-		double avg = (pop + stance + flip + board_rotation + board_spin + body_rotation + flip_count+flip_pop);
+		double avg = (pop + stance + flip + board_rotation + board_spin + body_rotation + flip_count+flip_pop + manual);
 		return avg;
+	}
+	
+	
+	public int Manual(String str_manual)
+	{
+		
+		if(str_manual.trim().equals("nose"))
+		{
+				manual = 3;
+		}                     
+		else if(str_manual.trim().equals("manual"))
+		{
+			manual = 2;
+		}
+		else 
+		{
+			return 0;
+		}
+
+		return manual;
 	}
 	
 	
@@ -168,6 +188,7 @@ public class BreakdownComponents {	//rating is from 1-5 for the trick
 		}
 		else //error measure for when i am sending random text in
 		{
+			
 			return 0;
 		}
 		
@@ -187,7 +208,7 @@ public class BreakdownComponents {	//rating is from 1-5 for the trick
 		}
 		else  if(trick_component.trim().equals("triple"))
 		{
-			flip_count = 5;
+			flip_count = 6;
 		}
 		else  if(trick_component.trim().equals("quad"))
 		{
@@ -218,6 +239,13 @@ public class BreakdownComponents {	//rating is from 1-5 for the trick
 			Board_Spin("540");
 			Body_Rotation("180");
 			return true;
+		}
+		else if(tc.trim().equals("gazelle"))
+		{
+			Pop("pop");
+			Board_Spin("540");
+			Body_Rotation("360");
+			return true;	
 		}
 		
 		return false;

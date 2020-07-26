@@ -11,9 +11,10 @@ public class Search
  
 	
 	//its pretty much a search function to find a trick in the trickbook.txt file
-	public void exists(String str_trick) throws IOException
+	public boolean exists(String str_trick) throws IOException
 	{		
 		java.io.File trickbook = new java.io.File("trickbook.txt");
+		boolean result = false;
 				
 		Scanner glasses = new Scanner(trickbook);
 
@@ -22,9 +23,9 @@ public class Search
 		
 		while(glasses.hasNext())
 		{
-			inline = glasses.nextLine().toString().trim();
+			inline = glasses.nextLine().trim();
 
-			if(str_trick.toString().trim().equals(inline.toString().trim()))
+			if(str_trick.trim().equals(inline.trim()) )
 			{				
 				count = count + 1;
 			}
@@ -36,7 +37,8 @@ public class Search
 		}
 		else
 		{
-			System.out.println("Yes \n");
+			System.out.println("Yes, with " +count + " instance/s \n");
+			result = true;
 		}
 
 		
@@ -44,11 +46,13 @@ public class Search
 		System.out.println("Bye bye punk \n");
 		
 		glasses.close();
+		
+		return result;
 	}
 
 	
 	//fixes the trickbook by removing and replacing the tricks that repeat
-	public String[] theFix( String[] list)
+	public String[] theFix( String[] list, int type)
 	{
 		String str_trick = "";
 		String[] temp = list;
@@ -62,13 +66,13 @@ public class Search
 					str_trick = "";
 					while(str_trick.trim().equals("")) 		//only exits once i have a trick
 					{
-						str_trick = trick.TrickSelection();
+						str_trick = trick.getTrick(type);
 						loop_count ++;
 					}
 					//System.out.println("\n at "  + j + " : " + list[j]  + "  from " + i + " in temp[] : to ->  "  + str_trick);
 					
 					list[j] = str_trick;
-					theFix(list);
+					theFix(list,type);
 				}
 			}
 		}

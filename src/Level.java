@@ -26,6 +26,8 @@ public class Level {
 		
 		//System.out.println("\n");
 		
+		//isManual(trick_components);
+		
 		difficulty = Difficulty(trick_components);
 
 		/*for(int i =0; i < trick_components.length ; i++)
@@ -34,6 +36,26 @@ public class Level {
 		}*/
 		
 		return difficulty;
+	}
+	
+	//later return an ENUM
+	public boolean isManual(String[] trick)
+	{
+		boolean type = false;
+		
+		//Start from the back
+		for(int i = trick.length - 1; i >= 0; i--)
+		{
+			if(trick[i].trim().equals("manual"))
+			{
+				//System.out.println("Heya \n");
+				//Split the manual tricks into its components {t1,m,t2}*
+				type = true;;
+				return type;
+			}
+		}
+		
+		return type;
 	}
 	
 	//checks if a trick is a valid trick
@@ -171,6 +193,7 @@ public class Level {
 								if(bdc.Stance(tc[i-3]) !=0)
 								{
 									valid = true; //nollie bs bigger spin
+									System.out.println("Heya");
 									break;
 								}	
 							}
@@ -419,50 +442,70 @@ public class Level {
 			bdc.Board_Spin(tc[-]);
 		}*/
 		
-		for(int i =0; i < tc.length ; i++)
-		{	
+		
+		//The difficulty is calculated by splitting trick into its components
+		//and then weigh each and getting the average
+		
+		
+		if(isManual(tc))
+		{
+			//Manual tricks
 			
-			//System.out.println(tc[i]);
-			
-			if((tc[i].trim().equals("360") || tc[i].trim().equals("180") || tc[i].trim().equals("540")))
-			{
+			//Possible configurations
+			// M = {m,n}, which are manual and nose manual respectively
+			// word lengths: 1 = manual = {m} , 2 = {mt,tM,n = nose}, 3 = {tm,mt, tmt = kickflip manual heelfip}, 4 = {}
+		}
+		else
+		{
+			//Flat-ground tricks
+			for(int i =0; i < tc.length ; i++)
+			{	
 				
-				//Decide if the 360/180 is a body or board rotation
-				if(i-1 >= 0 )
+				//System.out.println(tc[i]);
+				
+				
+				if((tc[i].trim().equals("360") || tc[i].trim().equals("180") || tc[i].trim().equals("540")))
 				{
-					if(bdc.Board_Rotaiton(tc[i-1]) !=0 )
+					
+					//Decide if the 360/180 is a body or board rotation
+					if(i-1 >= 0 )
 					{
-						bdc.Body_Rotation(tc[i]); 		//e.g bs 360...
-						
-						if(i+1 <= tc.length-1)
-                        {
-                            if(bdc.Pop(tc[i+1]) != 0)
-                            {
-                            	//System.out.println("\n Phakati inside the shuvs \n");
-                                bdc.Board_Spin(tc[i]); //e.g bs 360 pop shuv-it
-                            }
-                        }
+						if(bdc.Board_Rotaiton(tc[i-1]) !=0 )
+						{
+							bdc.Body_Rotation(tc[i]); 		//e.g bs 360...
+							
+							if(i+1 <= tc.length-1)
+	                        {
+	                            if(bdc.Pop(tc[i+1]) != 0)
+	                            {
+	                            	//System.out.println("\n Phakati inside the shuvs \n");
+	                                bdc.Board_Spin(tc[i]); //e.g bs 360 pop shuv-it
+	                            }
+	                        }
+						}
+						else
+						{
+							bdc.Board_Spin(tc[i]);		//e.g switch 360 flip
+						}
 					}
 					else
 					{
-						bdc.Board_Spin(tc[i]);		//e.g switch 360 flip
+						bdc.Board_Spin(tc[i]);		//e.g 360 flip
 					}
 				}
 				else
 				{
-					bdc.Board_Spin(tc[i]);		//e.g 360 flip
+					bdc.Stance(tc[i]);
+					bdc.Board_Rotaiton(tc[i]);
+					bdc.Pop(tc[i]);
+					bdc.Flip(tc[i]);
+					bdc.FlipCount(tc[i]);
+					bdc.Spins(tc[i]);		
 				}
 			}
-			else
-			{
-				bdc.Stance(tc[i]);
-				bdc.Board_Rotaiton(tc[i]);
-				bdc.Pop(tc[i]);
-				bdc.Flip(tc[i]);
-				bdc.FlipCount(tc[i]);
-				bdc.Spins(tc[i]);		
-			}
 		}
+		
+		//get the manual configurations
 			
 		//System.out.println(bdc.Avg());
 		avg = bdc.Avg();

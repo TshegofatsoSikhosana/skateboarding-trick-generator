@@ -11,4 +11,5 @@ switch fs 180 heelflip
 switch fs big heel
 switch bs 180 
 baby fakie fs 180
-fs 180
+switch 360 kickflip manual
+switch kickflip nose manual nollie bs 180 heelflip

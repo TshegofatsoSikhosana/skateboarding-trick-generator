@@ -6,11 +6,11 @@ public class Trick
 	private Random generator = new Random();
 	private TrickComponents component = new TrickComponents();
 	private Level level = new Level();
+	private BreakdownComponents bdc = new BreakdownComponents();
 	//enum ObstacteType = {'CURB','LEDGE','RAIL'};
 	
 	String TrickSelection()										//generates the trick-name 
 	{
-	
 		String str_stance = "";
 		String str_pop = "";
 		String str_flip = "";
@@ -19,62 +19,94 @@ public class Trick
 		String str_body_rotation = "";
 		String str_board_spin = "";
 		String str_manual = "";
-		boolean special = false;
 		String trick = "";
-		
-		
+		boolean special = false;
 		
 		str_stance = component.Stance();
-//	System.out.println("stance= " + str_stance);
 		str_flip = component.Flip();
-	//	System.out.println("flip= " + str_flip);
 		str_flip_count = component.FlipCount();
 		str_board_rotation = component.Board_R();
-	//	System.out.println("board= " + str_board_rotation);
 		str_body_rotation = component.Body_R();
-	//	System.out.println("body= " + str_body_rotation);
 		str_pop = component.Pop();
-	//	System.out.println("pop= " + str_pop);
 		str_board_spin = component.Board_Spin();
-	//	System.out.println("board= " + str_board_spin);
 		str_manual = component.Manual();
-	 
 		
 		trick = TheMagic(str_stance,str_pop,str_board_rotation,str_body_rotation,str_flip,str_flip_count,str_board_spin,special,str_manual);
 		
-		 
-
 		return trick;
 	}
 	
-	
-	
-	String Obstacle(String type)
+	String getTrick(int type)
 	{
+		String str_trick = "";
+		String str_manual = "";
 		
-		if(type == "FLAT")
+		if(type == 2)		// Manuals
 		{
-			//call theMagic function
+			while(str_trick.trim().equals("")) 		//only exits once i have a trick
+			{
+				str_trick = TrickSelection();//NB*	
+			}
+			//we can't have wild tricks
+			if(level.TrickDifficulty(str_trick) <= 9)
+			{
+				str_manual = "";
+				boolean isManual = false;
+				while(isManual == false ) 		//for manual tricks
+				{
+					str_manual = Manuals(str_trick);
+					
+					//Strictly manual tricks
+					if(isManual(str_manual.split(" ")))
+					{
+						str_trick = str_manual;
+						isManual = true;
+					}
+					else
+					{
+						str_manual = "";
+					}
+				}				
+			}
+			else
+			{
+				str_trick = "";
+			}
 		}
-		else if(type == "STAIRS")
+		else if(type == 3)		// Ledges
 		{
-			//call  theMAgic Function
+			System.out.println("\n Slides and grinds coming soon \n");
 		}
-		else if(type == "LEDGE")
+		else	//Flat ground
 		{
-			
-		}
-		else if(type == "RAIL")
-		{
-			
-		}
-		else if(type == "CURB")
-		{
-			//call Manuals;
+			while(str_trick.trim().equals("")) 		//only exits once i have a trick
+			{
+				str_trick = TrickSelection();//NB*	
+			}
 		}
 		
-		return "";
+		// By default it produces flat-ground tricks 
+		return str_trick;
 	}
+	
+	public boolean isManual(String[] trick)
+	{
+		boolean type = false;
+		
+		//Start from the back
+		for(int i = trick.length - 1; i >= 0; i--)
+		{
+			if(trick[i].trim().equals("manual"))
+			{
+				//System.out.println("Heya \n");
+				type = true;;
+				return type;
+			}
+		}
+		
+		return type;
+	}
+	
 	
 	String Manuals(String trick)
 	{
@@ -96,11 +128,11 @@ public class Trick
 		}
 		else
 		{
-			//Possible combinations are
+			//Possible combinations are tm, mt, mtm, tmt
 			//Trick to manual, Manual to Trick, 
-			int manual_action = generator.nextInt(3);
+			int manual_action = generator.nextInt(2);
 			
-			if(manual_action == 0)		//into
+			if(manual_action == 0)		//into 		//tm
 			{
 				//When a trick is done into manual
 				while(str_manual.trim().equals(""))
@@ -108,13 +140,18 @@ public class Trick
 					str_manual = component.Manual();
 				}
 				
+				//t1 = trick in str_combo
+				String[] t1_components = trick.trim().split(" ");
+				
 				str_combo = trick.trim() + " " + str_manual.trim();
 				
 				//before returning maybe a trick is done out from manual
-				manual_action = generator.nextInt(2);
-				if(manual_action == 0)
+				int final_action = generator.nextInt(1);
+				
+				if(final_action == 0)	//tmt?
 				{
 					trick = "";
+					
 					while(trick.equals(""))
 					{
 						trick = TrickSelection();
@@ -123,16 +160,183 @@ public class Trick
 					//For the trick to make sense
 					if(level.TrickDifficulty(trick) < 6)
 					{
-						str_combo = str_combo + " " + trick;
+						
+						String[] t2_components = trick.split(" ");
+						String t2_stance = "";
+						int t1_rotation = 0;
+						
+								
+						//get the current trick (t2) Stance
+						for(int i = 0; i < t2_components.length; i++)
+						{
+							if(bdc.Stance(t2_components[i].trim()) > 0)
+							{
+								bdc.Stance(t2_components[i]);
+								if(bdc.Spins(trick))
+								{
+									
+								}
+								t2_stance = t2_components[i].trim();
+								i = t2_components.length;
+							}
+							else
+							{
+								t2_stance = "normal"; // Regular/Goofy
+							}
+						}
+						
+						//check if trick includes a 180 body rotation
+						for(int i = 0; i <t1_components.length;i++)
+						{
+							if(bdc.Body_Rotation(t1_components[i]) == 2)
+							{
+								t1_rotation = bdc.Body_Rotation(t1_components[i]);
+							}
+						}
+						
+						
+						
+						
+						if(t1_rotation == 2)	// this is the score value of a 180
+						{
+							// All the tricks that have a 180 body rotation in them 
+							// including big-spin
+							
+							// Check which manual is binding the two tricks
+							if(str_manual.trim().equals("manual"))
+							{
+								//System.out.println(" Rotation t1 : "+ t1_rotation + " and the trick is " + str_combo);
+								// now checking the stance combinations
+								// using index = 0 in components because in a trick the stance comes first
+								if(t1_components[0].equals("switch") && t2_stance.equals("normal"))
+								{
+									str_combo = str_combo + " " + trick;
+								}
+								else if(t1_components[0].equals("nollie") && t2_stance.equals("switch"))
+								{
+									str_combo = str_combo + " " + trick;
+								}
+								else // we are in the normal stance (Regular/goofy) in t1
+								{
+									
+									String t1_stance = "";
+									
+									
+									//get the current trick (t1) Stance
+									if(bdc.Stance(t1_components[0].trim()) > 0)
+									{
+										//bdc.Stance(t1_components[0]);
+										if(bdc.Spins(trick))
+										{
+											
+										}
+										t1_stance = t1_components[0].trim();
+										//i = t1_components.length;
+									}
+									else
+									{
+										t2_stance = "normal"; // Regular/Goofy
+									}
+									
+									
+									if(t1_stance.equals("normal"))
+									{
+										if(t2_stance.equals("fakie"))
+										{
+											str_combo = str_combo + " " + trick;
+										}
+										else if(t2_stance.equals("switch"))
+										{
+											str_combo = str_combo + " " + trick;
+										}
+									}
+								}
+							}
+							else if(str_manual.trim().equals("nose manual"))
+							{
+								// now checking the stance combinations
+								// using index = 0 in components because in a trick the stance comes first
+								if(t1_components[0].equals("nollie") && t2_stance.equals("fakie"))
+								{
+									str_combo = str_combo + " " + trick;
+								}
+								else if(t1_components[0].equals("fakie") && t2_stance.equals("normal"))
+								{
+									str_combo = str_combo + " " + trick;
+								}
+								else if(t1_components[0].equals("fakie") && t2_stance.equals("nollie"))
+								{
+									str_combo = str_combo + " " + trick;
+								}
+								else if(t1_components[0].equals("switch") && t2_stance.equals("nollie"))
+								{
+									str_combo = str_combo + " " + trick;
+								}
+							}
+						}
+						else
+						{
+							// tricks that don't have a rotation in them so you cannot change into certain stances from other stances
+							
+							// Check which manual is binding the two tricks
+							if(str_manual.trim().equals("manual"))
+							{
+								if(!t2_stance.trim().equals("fakie") && !t2_stance.trim().equals("nollie"))
+								{
+									if((t1_components[0].equals("switch") && t2_stance.equals("fakie"))  || (t1_components[0].equals("switch") && t2_stance.trim().equals("switch")))
+									{
+										str_combo = str_combo + " " + trick;
+									}
+									else 
+									{
+										
+										int t1_stance = 10;
+										
+										for(int i = 0; i < t1_components.length; i++)
+										{
+											if(bdc.Stance(t1_components[i].trim()) == 0) //it is normal stance
+											{
+												t1_stance = bdc.Stance(t1_components[i]);
+												break;
+											}
+										}
+										
+										if(t1_stance == 0)		//t1 is in normal stance
+										{
+											if(t2_stance.equals("normal"))
+											{
+												str_combo = str_combo + " " + trick;
+											}
+											else if(t2_stance.equals("nollie"))
+											{
+												str_combo = str_combo + " " + trick;
+											}
+										}
+									}	
+								}	
+							}
+							else if(str_manual.trim().equals("nose manual"))
+							{
+								if(!t2_stance.trim().equals("switch") && !t2_stance.trim().equals("normal"))
+								{
+									if((t1_components[0].equals("nollie") && ( t2_stance.trim().equals("nollie") || t2_stance.trim().equals("normal"))))
+									{
+										str_combo = str_combo + " " + trick;
+									}
+									else if((t1_components[0].equals("fakie") && ( t2_stance.trim().equals("fakie") || t2_stance.trim().equals("switch"))))
+									{
+										str_combo = str_combo + " " + trick;
+									}
+								}	
+							}						
+						}
 					}
-					
-					return str_combo;
-				}
+				}	
 				
 				return str_combo;
 				
 			}
-			else if(manual_action == 1)	//out
+			else if(manual_action == 1)	//out		mt
 			{
 				//When a manual is done and a trick is done out of it
 				while(str_manual.trim().equals(""))
@@ -154,6 +358,8 @@ public class Trick
 
 						//System.out.println("Hey.... " + trick);
 						
+						
+						//Converting trick format to manuals
 						for(int i = 1; i<trick.split(" ").length ;i++)
 						{
 							combo = combo +  trick.split(" ")[i] + " " ; 
@@ -192,9 +398,8 @@ public class Trick
 			else
 			{
 				//just the trick
-				return str_combo;
+				return "";
 			}
-			
 		}
 	
 	}
@@ -562,7 +767,7 @@ public class Trick
 						//gazelle spins :)
 						if(str_board_spin.trim().equals("360"))
 						{
-							str_board_spin = "gazelle ";
+							str_board_spin = "gazelle spin";
 							trick = str_stance + str_board_rotation + str_board_spin ;
 						}
 						

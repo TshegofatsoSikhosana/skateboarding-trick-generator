@@ -15,19 +15,39 @@ public class main {
 	static String str_manaul;
 	static String str_trick = "";
 	static Level level = new Level();
-
+	private static int count =0;
+	private static int size =0; 
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
 		System.out.println("\n Start: "+ CurrentTime.GetTime().toString()+ "\n \n");
 		
-		String[] list = new String[360];
+
+		System.out.println("\n Select trick type: \n 1) Flatground \n 2) Manuals(pad) \n 3) Ledges + Rails \n  Input: ");
+		Scanner selected = new Scanner(System.in);
+		int type = Integer.parseInt(selected.next());
+
+		//The trick list
+		String[] list;
+		
+		if(type > 1)
+		{
+			size = 500;
+		}
+		else
+		{
+			size = 200;
+		}
+		
+		list = new String[size];
 		
 		for(int i = 0 ;i < list.length;i++)
 		{
 			list[i] = "";
 		}
+		
+		
 
 		int end = 0;
 		
@@ -49,58 +69,28 @@ public class main {
 		
 		//Defines the IO for the file test
 		//Scanner tests = new Scanner(testResults);
-		int count =0;
+		
 		
 		while(end < list.length)
 		{
-			while(str_trick.trim().equals("")) 		//only exits once i have a trick
+			str_trick = trick.getTrick(type);
+			
+			//ensure no empty tricks
+			if(!str_trick.trim().equals(""))
 			{
 				count++;
-				str_trick = trick.TrickSelection();//NB*
-				
-				//we can't have wild tricks
-				if(level.TrickDifficulty(str_trick) <= 9)
-				{
-					str_manaul = "";
-					while(str_manaul.trim().equals("")) 		//for manual tricks
-					{
-						str_manaul = trick.Manuals(str_trick);
-					}
-					
-					str_trick = str_manaul;
-				}
-				
-				
-				
-				if(end == 125)
-				{
-					if(!str_trick.trim().equals(""))
-					{
-						System.out.println("Half way done...i am still thinking but here is a trick you can track in the trickbook : " + str_manaul);
-						//System.out.println(str_difficulty);					
-					}
-				}
-				else if(end == 126) 
-				{
-					System.out.println(" \n i am still thinking: "+ str_manaul +"\n");
-				}
-				else if(end == 250) 
-				{
-					System.out.println(" \n previous threshold: "+ str_manaul +"\n");
-				}
+				list[end] = str_trick; 		
+				str_trick = "";
+				end = end + 1;
 			}
-			
-			
-			
-			list[end] = str_trick; 		
-			str_trick = "";
-			end = end + 1;
 		}
-
-		//list = search.theCount(list);
-		list = search.theFix(list);
 		
 		System.out.println("\n Program looped " + count + " times when making the unorder list \n");
+		
+
+		//list = search.theCount(list);
+		list = search.theFix(list,type);
+		
 		
 		System.out.println("\n Program looped "+ search.loop_count + " times while fixing the trickbook(removing duplicates) \n");
 		
@@ -119,7 +109,7 @@ public class main {
 		
 		
 		//results is a list of averages for each trick
-		double[] track = new double[250];
+		double[] track = new double[size];
 		
 		for(int i = 0; i <= track.length-1; i++)
 		{
@@ -129,8 +119,9 @@ public class main {
 		}
 		
 		dirt.close();
+		
 		//gets the max
-		Max(track,list);
+		//Max(track,list);
 		
 		
 		String str_trick ="";		
@@ -158,24 +149,26 @@ public class main {
 			}
 		}*/
 		
-		System.out.println("\n Stopped "+CurrentTime.GetTime().toString());		
 		System.out.println("\n Done \n");
 		
+		System.out.println("\n Stopped "+CurrentTime.GetTime().toString());		
+
 		
-		System.out.println("\n Check if trick exists: (enter \"stop\") to end search session. \n");
+		
+		System.out.println("\n \n Check if trick exists: (enter \"stop\") to end search session. \n");
 		Scanner input = new Scanner(System.in);
 		String key = input.nextLine();
 
 		while(!key.equals("stop"))
 		{
-			if(level.isTrick(key.trim()))
+			
+			if(search.exists(key))
 			{
-				search.exists(key);
-				System.out.println("\n Hooray...It is a trick  and its score is " + level.TrickDifficulty(key.trim()) + " \n");
+				System.out.println("\n  Hypothetical score of: " + level.TrickDifficulty(key.trim()) + " \n");
 			}
 			else
 			{
-				System.out.println("\n Boo hoo...It is not a trick ");
+				System.out.println("\n Hypothetical score of: "  + level.TrickDifficulty(key.trim()) + " \n");
 			}
 			key = input.nextLine();
 		}
@@ -183,9 +176,11 @@ public class main {
 			
 		//tricks.close();
 		//results.close();
+		selected.close();
 		input.close();
 		
 	}
+	
 	
 	private static void Max(double[] track,String[] list)
 	{
