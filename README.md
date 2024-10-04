@@ -1,5 +1,5 @@
 # SkateBot 
-(code is implemented in the Skate Gen android app)
+(code is implemented in the Skate Gen web app)
 Check it out at: https://skategen.app
 
 This is a skateboard trick generator written in Java.
