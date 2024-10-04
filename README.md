@@ -1,6 +1,6 @@
 # SkateBot 
 (code is implemented in the Skate Gen android app)
-Check it out at: https://play.google.com/store/apps/details?id=com.skatehq.stsplanet.skatedyce
+Check it out at: https://skategen.app
 
 This is a skateboard trick generator written in Java.
 The aim for this project is to create a skate bot that is able to generate all skateboarding tricks including flat-ground, vert , grinds and slides, and finally "special" tricks. The bot should also be able to validate that a trick follows the correct skateboarding trick naming convention (is in the langauge of skateboarding).
